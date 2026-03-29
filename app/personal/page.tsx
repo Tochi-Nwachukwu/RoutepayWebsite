@@ -1,19 +1,9 @@
 "use client";
 
-import Lottie from "lottie-react";
-import Hello from "../components/Hello";
-import HowItWorks from "../components/HowItWorks";
-import Container from "../components/Container";
-import PersonalBanking from "../components/PersonalBanking";
-import GovtBanking from "../components/GovtBanking";
-import BankingBusiness from "../components/BankingBusiness";
-import DownloadApp from "../components/DownloadApp";
-import FAQ from "../components/FAQ";
-
-import animationData from "../assets/animate.json";
-import animationData1 from "../assets/car-animate.json";
-import animationData2 from "../assets/verify.json";
-import animationData3 from "../assets/contact-us.json";
+import Container from "../../components/Container";
+import DownloadApp from "../../components/DownloadApp";
+import FAQ from "../../components/FAQ";
+import PersonalFeat from "../../components/PersonalFeat";
 
 const cards = [
   {
@@ -42,37 +32,46 @@ const cards = [
   },
 ];
 
-const animate = [
+const cardFeat = [
   {
-    vid: animationData1,
-    header: "Fast, Seamless Payments",
-    text: "Send or receive money in seconds. We ensure your payments are processed immediately.",
+    img: "/images/personal-1.png",
+    header: "Local Transfers",
+    text: "Send money instantly to friends, family, and customers anywhere in Nigeria with ease and reliability.",
   },
   {
-    vid: animationData2,
-    header: "Enterprise Grade Security",
-    text: "Your transactions and data are fully protected. With top-tier security protocols.",
+    img: "/images/personal-2.png",
+    header: "Airtime Purchase",
+    text: "Top up any mobile network in seconds MTN, Airtel, 9Mobile, and Glo all in one place.",
   },
   {
-    vid: animationData3,
-    header: "Designed for You",
-    text: "From personal payments to business and government collections, RoutePay adapts to your needs.",
+    img: "/images/personal-3.png",
+    header: "Cable TV Payments",
+    text: "Stay connected by paying your DStv, GOtv, and other cable subscriptions quickly and hassle-free.",
+  },
+  {
+    img: "/images/personal-4.png",
+    header: "Electricity Bills",
+    text: "Effortlessly settle your electricity bills for all supported providers, directly from the platform.",
+  },
+  {
+    img: "/images/personal-5.png",
+    header: "Online Payments",
+    text: "Make everyday purchases and online payments smoother from subscriptions to digital services all in one place.",
   },
 ];
 
-export default function Home() {
+export default function PersonalPage() {
   return (
-    <div className="bg-white font-light ">
+    <div className="bg-[#FFF1EC] font-light ">
       <Container>
-        <div className="pt-0 flex flex-col justify-between items-center xl:flex-row lg:gap-3 xl:gap-6">
+        <div className="pt-0 flex flex-col justify-between mt-29.25 xl:flex-row lg:gap-3 xl:gap-6">
           <div className="w-full flex flex-col gap-4.5 ">
-            <h1 className="text-[70px] leading-22 text-black font-semibold">
-              Powering Modern Finances
+            <h1 className="text-[70px] font-semibold leading-22 text-black">
+              Your money, <br />your rules
             </h1>
-            <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-12 w-118.5">
               <p className="text-[#3B3939] text-[20px] leading-6.25">
-                From paying bills and sending money to collecting payments and
-                managing transactions all in one platform.
+                While you’re sending, receiving, or managing transactions, the app provides a seamless, secure, and user-friendly experience for you.
               </p>
               <div className="flex gap-14">
                 <img src="/images/app-store.svg" alt="App store" />
@@ -81,28 +80,18 @@ export default function Home() {
             </div>
           </div>
           <div className=" w-full h-full px-8">
-            <Lottie animationData={animationData} loop={true} autoplay={true} />
+            <img src="/images/personal-hero.png" alt="Personal Hero" />
           </div>
         </div>
       </Container>
 
       {/* Sections */}
-      <div className="mt-35 flex flex-col gap-40">
-        <Hello />
-        <HowItWorks
-          animate={animate}
-          header={
-            <>
-              All your payments. <br /> One platform.
-            </>
-          }
-          title="HOW IT WORKS"
+      <div className="mt-35 flex flex-col gap-40 bg-white">
+        <PersonalFeat 
+          className="mt-30" 
+          cards={cardFeat} 
+          header={<>Make fast, easy payments with the <br /> RoutePay mobile app.</>}
         />
-        <div className="flex flex-col gap-0">
-          <PersonalBanking />
-          <BankingBusiness />
-          <GovtBanking />
-        </div>
         <FAQ cards={cards} />
         <DownloadApp />
       </div>

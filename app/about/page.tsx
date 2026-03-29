@@ -1,19 +1,10 @@
 "use client";
 
-import Lottie from "lottie-react";
-import Hello from "../components/Hello";
-import HowItWorks from "../components/HowItWorks";
-import Container from "../components/Container";
-import PersonalBanking from "../components/PersonalBanking";
-import GovtBanking from "../components/GovtBanking";
-import BankingBusiness from "../components/BankingBusiness";
-import DownloadApp from "../components/DownloadApp";
-import FAQ from "../components/FAQ";
-
-import animationData from "../assets/animate.json";
-import animationData1 from "../assets/car-animate.json";
-import animationData2 from "../assets/verify.json";
-import animationData3 from "../assets/contact-us.json";
+import Container from "../../components/Container";
+import FAQ from "../../components/FAQ";
+import BusinessFeat from "../../components/BusinessFeat";
+import DownloadApp from "../../components/DownloadApp";
+import Values from "../../components/Values";
 
 const cards = [
   {
@@ -42,67 +33,89 @@ const cards = [
   },
 ];
 
-const animate = [
+const cardsFeat = [
   {
-    vid: animationData1,
-    header: "Fast, Seamless Payments",
-    text: "Send or receive money in seconds. We ensure your payments are processed immediately.",
+    img: "/images/about-1.jpg",
+    header: "Who we are",
+    text: "We are a game-changing Fintech company driven by the desire to ensure that digital payment is made possible and available without hassles. Founded and managed by a team of astute professionals with deep knowledge and understanding of payment systems in Nigeria as well as various enviable standards globally.",
   },
   {
-    vid: animationData2,
-    header: "Enterprise Grade Security",
-    text: "Your transactions and data are fully protected. With top-tier security protocols.",
+    img: "/images/about-2.jpg",
+    header: "Our Mission",
+    text: "RoutePay's mission is to deliver payment solutions beyond barriers, enhancing connections and digital transformation in a changing world.",
   },
   {
-    vid: animationData3,
-    header: "Designed for You",
-    text: "From personal payments to business and government collections, RoutePay adapts to your needs.",
+    img: "/images/about-3.jpg",
+    header: "Our Vision",
+    text: "RoutePay aims to be the payment solution of choice beyond borders, providing secure digital payment platforms that connect all.",
   },
 ];
 
-export default function Home() {
+export default function AboutPage() {
   return (
-    <div className="bg-white font-light ">
+    <div className="bg-[#FFF1EC] font-light ">
       <Container>
-        <div className="pt-0 flex flex-col justify-between items-center xl:flex-row lg:gap-3 xl:gap-6">
-          <div className="w-full flex flex-col gap-4.5 ">
-            <h1 className="text-[70px] leading-22 text-black font-semibold">
-              Powering Modern Finances
-            </h1>
-            <div className="flex flex-col gap-12">
-              <p className="text-[#3B3939] text-[20px] leading-6.25">
-                From paying bills and sending money to collecting payments and
-                managing transactions all in one platform.
+        <div className="flex flex-col text-black gap-18 mt-18">
+          <div className="flex flex-row">
+            {/* Header Text */}
+            <div className=" flex flex-col gap-4">
+              <h3 className="text-[18px]  leading-5.75 text-[#2B74BD]">ABOUT US</h3>
+              <h1 className="text-[70px] leading-22 text-black font-semibold">
+                Money shouldn’t feel <br /> complicated.
+              </h1>
+              <p className="text-[20px] leading-6.25 text-[#555151]">
+                We understand that technology can sometimes be intimidating,
+                which is why we're designing an app that's
+                accessible to everyone, regardless of their <br /> technical
+                background.
               </p>
-              <div className="flex gap-14">
-                <img src="/images/app-store.svg" alt="App store" />
-                <img src="/images/play-store.svg" alt="Play store" />
-              </div>
             </div>
           </div>
-          <div className=" w-full h-full px-8">
-            <Lottie animationData={animationData} loop={true} autoplay={true} />
+
+          <div className="w-full flex justify-end h-full mb-20">
+            <img
+              src="/images/about-hero-1.png"
+              className=""
+              alt="About Hero"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col text-black gap-18 mt-18">
+          <div className="flex flex-row">
+            {/* Header Text */}
+            <div className=" flex flex-col gap-4">
+              <h3 className="text-[18px]  leading-5.75 text-[#2B74BD]">MISSION</h3>
+              <h2 className="text-[50px] leading-15.75 text-black">
+                One app. Endless financial possibilities.
+              </h2>
+              <p className="text-[20px] leading-6.25 text-[#555151]">
+                We’re on a mission to reshape how Nigerians move, manage, and
+                grow money giving individuals and businesses powerful tools that
+                are simple enough for anyone to use, but strong enough to scale
+                ambition.
+              </p>
+            </div>
+          </div>
+
+          <div className="w-full  flex justify-start h-full mb-20">
+            <img
+              src="/images/about-hero-2.png"
+              className=""
+              alt="Mission Hero"
+            />
           </div>
         </div>
       </Container>
 
       {/* Sections */}
-      <div className="mt-35 flex flex-col gap-40">
-        <Hello />
-        <HowItWorks
-          animate={animate}
-          header={
-            <>
-              All your payments. <br /> One platform.
-            </>
-          }
-          title="HOW IT WORKS"
+      <div className="mt-20 flex flex-col gap-40 bg-white">
+        <BusinessFeat
+          cards={cardsFeat}
+          title="WHO WE ARE"
+          header="Game-changing Fintech"
         />
-        <div className="flex flex-col gap-0">
-          <PersonalBanking />
-          <BankingBusiness />
-          <GovtBanking />
-        </div>
+        <Values />
         <FAQ cards={cards} />
         <DownloadApp />
       </div>
