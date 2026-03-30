@@ -120,7 +120,7 @@ const Footer = () => {
                   {iconLinks.map((item, index) => {
                     return (
                       <Link href={item.href} key={index}>
-                        <Image width={500} height={500} src={item.link} alt="Socials" />
+                        <Image width={500} height={500} src={item.link} alt="Socials" className="w-[50] md:w-fit" />
                       </Link>
                     );
                   })}

@@ -18,9 +18,9 @@ interface HowItWorksProps {
 
 export default function HowItWorks({ animate, header, title }: HowItWorksProps) {
   return (
-    <div className="container mx-auto font-light md:mt-12  flex flex-col lg:flex-row gap-4">
+    <div className="container mx-auto font-light xl:mt-12  flex flex-col lg:flex-row gap-4">
       <Container>
-        <div className="flex flex-col gap-10 md:gap-30">
+        <div className="flex flex-col gap-10 md:gap-20 lg:gap-30">
           {/* Header Text */}
           <div className=" flex flex-col gap-2 md:gap-4">
             <h3 className="md: text-[18px] text-[#2B74BD] leading-5.75 ">

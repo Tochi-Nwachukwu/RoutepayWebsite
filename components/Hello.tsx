@@ -46,21 +46,21 @@ export default function Hello() {
   return (
     <div className="ms:mt-16 flex  relative">
       <Container>
-        <div className="flex flex-col relative gap-10 md:gap-26">
-          <div className="h-full md:w-215.75   gap-2 md:gap-0 flex flex-col rounded-xl items-start justify-start ">
+        <div className="flex flex-col relative gap-10 lg:gap-26">
+          <div className="h-full lg:w-215.75   gap-2 md:gap-0 flex flex-col rounded-xl items-start justify-start ">
             <div>
-              <h3 className="md:absolute text-[25px] md:text-[60px] md:leading-19 xl:right-35 2xl:right-80 top-25 text-black">
+              <h3 className="lg:absolute text-[25px] md:text-[40px] lg:text-[60px] xl:text-[60px] lg:leading-19 lg:right-0 xl:right-35 2xl:right-80 top-25 text-black">
                 {" "}
-                Say Hello! <br className="hidden md:block" /> to convenience
+                Say Hello! <br className="hidden lg:block" /> to convenience
               </h3>
             </div>
-            <div className="flex justify-center items-center w-full h-full">
+            <div className="  w-full h-full">
               <Image
                 width={500}
                 height={500}
                 src="/images/hello.png"
                 alt="Hello"
-                className="hidden md:block"
+                className="w-full h-full hidden md:block"
               />
               <Image
                 width={500}

@@ -22,7 +22,7 @@ export default function FAQ({ cards }: FAQProps) {
   return (
     <div className="bg-white ">
       <Container>
-        <div className="flex flex-col  gap-20 md:mt-20 text-black ">
+        <div className="flex flex-col  gap-20 lg:mt-20 text-black ">
           <div className="flex flex-col  justify-between     ">
             {/* Header Text */}
             <div className="w-full flex flex-col gap-10 md:gap-24.75">

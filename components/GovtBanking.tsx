@@ -14,23 +14,23 @@ interface AnimateItem {
 const animate: AnimateItem[] = [
   {
     src: "/images/bank-1.png",
-    header: "Focus on What Matters",
-    text: "We take care of your payments so you don’t have to worry freeing up time for the things you love. ",
+    header: "Taxes",
+    text: "Enable secure and efficient tax collection through reliable digital payment channels, with real-time tracking that improves compliance. ",
   },
   {
     src: "/images/govt-1.png",
-    header: "Plan Ahead with Ease",
-    text: "Schedule your payments in advance and never miss a due date again. Reliable, simple, and stress-free.",
+    header: "Licensing",
+    text: "Simplify payments for permits, registrations, and licenses with fast, user-friendly processing, instant confirmations.",
   },
   {
     src: "/images/bank-1.png",
-    header: "Pay Your Way",
-    text: "Send money effortlessly using payment links or your unique 9jaPay username perfect for friends, family, or bills.",
+    header: "Regulatory Fees",
+    text: "Streamline the collection of regulatory and administrative fees with automated reconciliation, transparent reporting.",
   },
   {
     src: "/images/govt-1.png",
-    header: "Clear and Honest",
-    text: "No hidden fees, no surprises. We keep everything transparent, so you always know exactly what’s happening.",
+    header: "Institutional Payments",
+    text: "Manage payments for public institutions such as schools and agencies with audit-ready records, secure transaction history.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function GovtBanking() {
   return (
     <div className="bg-[#FFF1EC] ">
       <Container>
-        <div className="flex flex-col md:flex-row  mb-15 md:mb-20 ">
+        <div className="flex flex-col lg:flex-row  mb-15 md:mb-20 ">
           {/* Header Text */}
           <div className="flex flex-col gap-8 md:gap-30  md:mt-20  w-fit justify-center mr-auto">
             <div className=" flex flex-col gap-2 md:gap-4">
@@ -98,7 +98,7 @@ export default function GovtBanking() {
               </div>
             </div>
             <div
-              className="md:mt-110  h-[400] md:h-full md:w-full md:hidden flex 2xl:justify-center"
+              className="lg:mt-110  lg:mt-80 h-[400]  md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] md:h-full md:w-full lg:hidden flex 2xl:justify-center"
               onTouchStart={(e) => {
                 touchStartX.current = e.changedTouches[0].clientX;
               }}
@@ -117,8 +117,8 @@ export default function GovtBanking() {
             </div>
 
             {/* Carousel Texts */}
-            <div className="flex flex-col md:flex-row md:w-100  gap-4 md:gap-7">
-              <div className="flex md:hidden flex-row justify-center items-center gap-2 mt-4">
+            <div className="flex flex-col lg:flex-row lg:w-100  gap-4 md:gap-7">
+              <div className="flex lg:hidden flex-row justify-center items-center gap-2 mt-4">
                 {animate.map((_, index) => (
                   <button
                     key={index}
@@ -134,20 +134,20 @@ export default function GovtBanking() {
               <div className="w-0.5  bg-[#D9D9D9] relative ">
                 {/* RED PROGRESS */}
                 <div
-                  className=" md:absolute left-0 w-0.5 h-[25%]  bg-[#F05A24] transition-all duration-500"
+                  className=" lg:absolute left-0 w-0.5 h-[25%]  bg-[#F05A24] transition-all duration-500"
                   style={{
                     top: `${(activeIndex / animate.length) * 100}%`,
                   }}
                 ></div>
               </div>
-              <div className="flex  flex-col  md:w-100 gap-14 cursor-pointer">
+              <div className="flex  flex-col  lg:w-100 gap-14 cursor-pointer">
                 {animate.map((item, index) => {
                   return (
                     <div
                       className={`flex flex-col gap-8 transition-all duration-500 ${
                         index === activeIndex
                           ? "opacity-100 translate-x-0"
-                          : "opacity-100 translate-x-2 hidden md:flex"
+                          : "opacity-100 translate-x-2 hidden lg:flex"
                       }`}
                       onClick={() => handleClick(index)}
                       key={index}
@@ -166,7 +166,7 @@ export default function GovtBanking() {
               </div>
             </div>
           </div>
-          <div className="md:mt-110  w-full hidden md:flex 2xl:justify-center">
+          <div className="lg:mt-110  w-full hidden lg:flex 2xl:justify-center">
             <Image
               width={500}
               height={500}

@@ -78,17 +78,17 @@ export default function BusinessPage() {
   return (
     <div className="bg-[#DBEBE5] font-light ">
       <Container>
-        <div className="flex flex-col text-black gap-15 md:gap-20 md:mt-20  ">
-          <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between   ">
+        <div className="flex flex-col text-black gap-15 lg:gap-20 md:mt-10 lg:mt-20  ">
+          <div className="flex flex-col lg:flex-row gap-2 md:gap-0 justify-between   ">
             {/* Header Text */}
             <div className=" flex flex-col gap-4  w-full ">
-              <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black">
-                From Startups to <br className="hidden md:block" />
+              <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
+                From Startups to <br className="hidden lg:block" />
                 Big Players
               </h1>
             </div>
             {/* Header button */}
-            <div className=" flex flex-col gap-4 md:gap-8 justify-center  md:w-[50%]  ">
+            <div className=" flex flex-col gap-4 md:gap-8 justify-center  lg:w-[50%]  ">
               <h3 className="md:text-[20px] leading-6.25 text-black">
                 From small ideas to big operations, everything is designed to
                 scale with you as your business levels up.
@@ -112,13 +112,13 @@ export default function BusinessPage() {
       </Container>
 
       {/* Sections */}
-      <div className="mt-15 md:mt-35 flex flex-col gap-20 md:gap-40 bg-white">
+      <div className="mt-15 lg:mt-35 flex flex-col gap-20 lg:gap-40 bg-white">
         <BusinessFeat
           cards={cardsFeat}
           title={"STREAMLINE & INTEGRATE"}
           header={
             <>
-              Unify your operations so everything <br className="hidden md:block"/> works smoothly,
+              Unify your operations so everything <br className="hidden lg:block"/> works smoothly,
               efficiently, and in sync.
             </>
           }
@@ -128,7 +128,7 @@ export default function BusinessPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              Get started in just 3 simple steps <br className="hidden md:block" /> and step straight into
+              Get started in just 3 simple steps <br className="hidden lg:block" /> and step straight into
               business.
             </>
           }

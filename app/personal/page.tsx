@@ -65,12 +65,12 @@ export default function PersonalPage() {
   return (
     <div className="bg-[#FFF1EC] font-light ">
       <Container>
-        <div className="pt-0 flex flex-col justify-between md:mt-29.25 lg:flex-row gap-20 lg:gap-6">
+        <div className="pt-0 flex flex-col justify-between md:mt-15  xl:mt-29.25 lg:flex-row gap-20 md:gap-30 lg:gap-6">
           <div className="w-full flex flex-col gap-4.5 ">
-            <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black">
-              Your money, <br className="hidden md:block"/>your rules
+            <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
+              Your money, <br className="hidden lg:block"/>your rules
             </h1>
-            <div className="flex flex-col gap-8 md:gap-12 md:w-118.5">
+            <div className="flex flex-col gap-8 md:gap-12 lg:w-118.5">
               <p className="text-[#3B3939] md:text-[20px] leading-6.25">
                 While you’re sending, receiving, or managing transactions, the app provides a seamless, secure, and user-friendly experience for you.
               </p>
@@ -87,11 +87,11 @@ export default function PersonalPage() {
       </Container>
 
       {/* Sections */}
-      <div className="mt-20 md:mt-35 flex flex-col gap-20 md:gap-40 bg-white">
+      <div className="mt-20 md:mt-35 flex flex-col gap-20 lg:gap-40 bg-white">
         <PersonalFeat 
-          className="mt-15 md:mt-30" 
+          className="mt-15 lg:mt-30" 
           cards={cardFeat} 
-          header={<>Make fast, easy payments with the <br className="hidden md:block" /> RoutePay mobile app.</>}
+          header={<>Make fast, easy payments with the <br className="hidden lg:block" /> RoutePay mobile app.</>}
         />
         <FAQ cards={cards} />
         <DownloadApp />

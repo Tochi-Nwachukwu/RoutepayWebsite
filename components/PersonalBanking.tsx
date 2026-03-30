@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Container from "./Container";
 import { useRef, useEffect, useState } from "react";
 
@@ -76,8 +77,8 @@ export default function PersonalBanking() {
   return (
     <div className="bg-[#FFF1EC] ">
       <Container>
-        <div className="flex flex-col md:flex-row mb-20">
-          <div className="md:hidden flex flex-col gap-2 md:gap-4">
+        <div className="flex flex-col lg:flex-row mb-20">
+          <div className=" md:mt-20 lg:mt-0 lg:hidden flex flex-col gap-2 md:gap-4">
             <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
               PERSONAL BANKING
             </h3>
@@ -87,7 +88,7 @@ export default function PersonalBanking() {
           </div>
 
           <div
-            className="mt-5 md:mt-80 h-[400]  md:h-full  md:w-[60%] flex 2xl:justify-center"
+            className="mt-5 md:mt-20 lg:mt-80 h-[400]  md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] flex 2xl:justify-center"
             onTouchStart={(e) => {
               touchStartX.current = e.changedTouches[0].clientX;
             }}
@@ -96,7 +97,7 @@ export default function PersonalBanking() {
               handleSwipe();
             }}
           >
-            <img
+            <Image width={400} height={400}
               src={animate[activeIndex].src}
               alt="personal banking"
               className="transition-all w-full h-full duration-500"
@@ -104,8 +105,8 @@ export default function PersonalBanking() {
           </div>
 
           {/* Header Text */}
-          <div className=" flex flex-row md:flex-col gap-8 md:gap-30  md:mt-20 w-fit justify-center ml-auto">
-            <div className="hidden md:flex flex-col gap-2 md:gap-4">
+          <div className=" flex flex-row lg:flex-col gap-8 md:gap-30  md:mt-20 w-fit justify-center ml-auto">
+            <div className="hidden lg:flex flex-col gap-2 md:gap-4">
               <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
                 PERSONAL BANKING
               </h3>
@@ -115,8 +116,8 @@ export default function PersonalBanking() {
             </div>
 
             {/* Carousel Texts */}
-            <div className="flex flex-col md:flex-row md:w-100 gap-4 md:gap-7">
-              <div className="flex md:hidden flex-row justify-center items-center gap-2 mt-8">
+            <div className="flex flex-col lg:flex-row lg:w-100 gap-4 lg:gap-7">
+              <div className="flex lg:hidden flex-row justify-center items-center gap-2 mt-8">
                 {animate.map((_, index) => (
                   <button
                     key={index}
@@ -132,20 +133,20 @@ export default function PersonalBanking() {
               <div className="w-0.5  bg-[#D9D9D9] relative">
                 {/* RED PROGRESS */}
                 <div
-                  className=" md:absolute left-0 w-0.5 h-[25%]  bg-[#F05A24] transition-all duration-500"
+                  className=" lg:absolute left-0 w-0.5 h-[25%]  bg-[#F05A24] transition-all duration-500"
                   style={{
                     top: `${(activeIndex / animate.length) * 100}%`,
                   }}
                 ></div>
               </div>
-              <div className="flex  flex-col  md:w-100 gap-14 cursor-pointer">
+              <div className="flex  flex-col  lg:w-100 gap-14 cursor-pointer">
                 {animate.map((item, index) => {
                   return (
                     <div
                       className={`flex flex-col gap-8 transition-all duration-500 ${
                         index === activeIndex
                           ? "opacity-100 translate-x-0"
-                          : "opacity-100 translate-x-2 hidden md:flex"
+                          : "opacity-100 translate-x-2 hidden lg:flex"
                       }`}
                       onClick={() => handleClick(index)}
                       key={index}

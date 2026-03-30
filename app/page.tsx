@@ -1,6 +1,5 @@
 "use client";
 
-import Lottie from "lottie-react";
 import Hello from "../components/Hello";
 import HowItWorks from "../components/HowItWorks";
 import Container from "../components/Container";
@@ -10,10 +9,10 @@ import BankingBusiness from "../components/BankingBusiness";
 import DownloadApp from "../components/DownloadApp";
 import FAQ from "../components/FAQ";
 
-import animationData from "../assets/animate.json";
 import animationData1 from "../assets/car-animate.json";
 import animationData2 from "../assets/verify.json";
 import animationData3 from "../assets/contact-us.json";
+import Image from "next/image";
 
 const cards = [
   {
@@ -64,9 +63,9 @@ export default function Home() {
   return (
     <div className="bg-white font-light ">
       <Container>
-        <div className="pt-0 flex flex-col justify-between items-center xl:flex-row gap-12 md:gap-6">
+        <div className="flex flex-col justify-between items-center lg:flex-row gap-12 md:gap-20 lg:gap-6">
           <div className="w-full flex flex-col  md:gap-4.5 ">
-            <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">
+            <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black ">
               Powering Modern Finances
             </h1>
             <div className="flex flex-col gap-8 md:gap-12">
@@ -75,12 +74,12 @@ export default function Home() {
                 managing transactions all in one platform.
               </p>
               <div className="flex gap-14 ">
-                <img src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
-                <img src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit"/>
+                <Image width={100} height={100} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
+                <Image width={100} height={100} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit"/>
               </div>
             </div>
           </div>
-          <div className=" w-full h-full px-8">
+          <div className=" w-full h-full xl:px-8 ">
             <video
               autoPlay
               loop
@@ -96,7 +95,7 @@ export default function Home() {
       </Container>
 
       {/* Sections */}
-      <div className="mt-10 md:mt-35 flex flex-col gap-20 md:gap-40">
+      <div className="mt-10 lg:mt-35 flex flex-col gap-20 lg:gap-40">
         <Hello />
         <HowItWorks
           animate={animate}
