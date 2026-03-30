@@ -24,7 +24,7 @@ const MobileMenu = ({ open, setOpen, toggleNav }: MobileMenuProps) => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
   return (
-    <div className="relative px-5 h-20 flex justify-between items-center  xl:hidden">
+    <div className="relative px-5 h-18 flex justify-between items-center  xl:hidden">
       <div className="">
         <Link href="/">
           <div className="h-6 w-27.25">
