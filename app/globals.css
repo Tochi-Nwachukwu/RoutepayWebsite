@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE/Edge */
+html {
+  -ms-overflow-style: none;
+}

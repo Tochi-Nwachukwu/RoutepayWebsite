@@ -13,6 +13,7 @@ import animationData1 from "../assets/car-animate.json";
 import animationData2 from "../assets/verify.json";
 import animationData3 from "../assets/contact-us.json";
 import Image from "next/image";
+import { useState } from "react";
 
 const cards = [
   {
@@ -60,6 +61,7 @@ const animate = [
 ];
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false);
   return (
     <div className="bg-white font-light ">
       <Container>
@@ -74,8 +76,20 @@ export default function Home() {
                 managing transactions all in one platform.
               </p>
               <div className="flex gap-14 ">
-                <Image width={100} height={100} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
-                <Image width={100} height={100} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit"/>
+                <Image
+                  width={100}
+                  height={100}
+                  src="/images/app-store.svg"
+                  alt="App store"
+                  className="w-[110] md:w-fit"
+                />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/images/play-store.svg"
+                  alt="Play store"
+                  className="w-[110] md:w-fit"
+                />
               </div>
             </div>
           </div>
@@ -86,10 +100,10 @@ export default function Home() {
               muted
               playsInline
               preload="auto"
-              className="w-full h-full object-cover"
-            >
-              <source src="/images/vid-hero.mp4" type="video/mp4" />
-            </video>
+              poster="/images/hero-vid.png"
+              className="w-full h-full object-cover "
+              src="/images/vid-hero.mp4"
+            />
           </div>
         </div>
       </Container>
