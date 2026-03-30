@@ -23,46 +23,10 @@ export const company: NavItem[] = [
     text: "Learn what RoutePay is all about.",
   },
   {
-    icon: "/images/careers-icon.svg",
-    title: "Careers",
-    link: "/careers",
-    text: "Join the RoutePay team.",
-  },
-  {
-    icon: "/images/compliance-icon.svg",
-    title: "Compliance",
-    link: "/compliance",
-    text: "Explore RoutePay’s industry compliance standards.",
-  },
-  {
     icon: "/images/contact-icon.svg",
     title: "Contact",
     link: "/contact-us",
     text: "Contact us or visit us.",
-  },
-  {
-    icon: "/images/terms-icon.svg",
-    title: "Privacy",
-    link: "/terms-and-conditions",
-    text: "Privacy",
-  },
-  {
-    icon: "/images/terms-icon.svg",
-    title: "Terms",
-    link: "/terms",
-    text: "Terms",
-  },
-  {
-    icon: "/images/compliance-icon.svg",
-    title: "Cookies Policy",
-    link: "/cookies-policy",
-    text: "Cookies Policy",
-  },
-  {
-    icon: "/images/compliance-icon.svg",
-    title: "Data Protection",
-    link: "/data-protection",
-    text: "Data Protection",
   },
 ];
 

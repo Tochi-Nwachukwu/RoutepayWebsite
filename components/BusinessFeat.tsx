@@ -39,7 +39,7 @@ export default function BusinessFeat({ cards, title, header }: BusinessFeatProps
                       isReversed ? "md:flex-row-reverse" : ""
                     }`}
                   >
-                    <img  src={item.img} alt="Card Image" className="w-full md:w-[380] lg:w-[450]" />
+                    <img src={item.img} alt="Card Image" className="w-full md:w-[380] lg:w-[450]" />
                     <div className="flex flex-col gap-4.5 ">
                       <h3 className="text-[30px] md:text-[40px] md:leading-12.5 text-black">
                         {item.header}

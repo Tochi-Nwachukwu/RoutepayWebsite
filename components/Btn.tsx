@@ -12,8 +12,8 @@ function Btn({ text, link, color }: BtnProps) {
       <button
         className={` rounded-[30px] font-medium px-1 lg:px-8 px-8 py-2.5 text-[16px] ${
           color
-            ? " bg-[#F05A24] text-white"
-            : "border-[#F05A24] bg-white text-[#F05A24]"
+            ? " bg-[#F05A24] text-white "
+            : "border-[#F05A24] border bg-white text-[#F05A24] "
         }`}
       >
         {text}

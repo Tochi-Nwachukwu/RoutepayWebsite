@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface AccordionItem {
   title: string;
@@ -32,7 +33,7 @@ const Accordion = ({ items, header, headerText, setOpen }: AccordionProps) => {
         className="flex gap-[10px] cursor-pointer"
         onClick={() => setIsAccordionOpen(!isAccordionOpen)}>
         <h3 className="">{header}</h3>
-        <img
+        <Image width={15} height={15}
           src="/images/chevron-arrow.svg"
           alt=""
           className={`${
