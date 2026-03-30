@@ -64,30 +64,39 @@ export default function Home() {
   return (
     <div className="bg-white font-light ">
       <Container>
-        <div className="pt-0 flex flex-col justify-between items-center xl:flex-row lg:gap-3 xl:gap-6">
-          <div className="w-full flex flex-col gap-4.5 ">
-            <h1 className="text-[70px] leading-22 text-black font-semibold">
+        <div className="pt-0 flex flex-col justify-between items-center xl:flex-row gap-12 md:gap-6">
+          <div className="w-full flex flex-col  md:gap-4.5 ">
+            <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">
               Powering Modern Finances
             </h1>
-            <div className="flex flex-col gap-12">
-              <p className="text-[#3B3939] text-[20px] leading-6.25">
+            <div className="flex flex-col gap-8 md:gap-12">
+              <p className="text-[#3B3939] md:text-[20px] leading-6.25">
                 From paying bills and sending money to collecting payments and
                 managing transactions all in one platform.
               </p>
-              <div className="flex gap-14">
-                <img src="/images/app-store.svg" alt="App store" />
-                <img src="/images/play-store.svg" alt="Play store" />
+              <div className="flex gap-14 ">
+                <img src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
+                <img src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit"/>
               </div>
             </div>
           </div>
           <div className=" w-full h-full px-8">
-            <Lottie animationData={animationData} loop={true} autoplay={true} />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              className="w-full h-full object-cover"
+            >
+              <source src="/images/vid-hero.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </Container>
 
       {/* Sections */}
-      <div className="mt-35 flex flex-col gap-40">
+      <div className="mt-10 md:mt-35 flex flex-col gap-20 md:gap-40">
         <Hello />
         <HowItWorks
           animate={animate}

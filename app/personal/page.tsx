@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Container from "../../components/Container";
 import DownloadApp from "../../components/DownloadApp";
 import FAQ from "../../components/FAQ";
@@ -64,33 +65,33 @@ export default function PersonalPage() {
   return (
     <div className="bg-[#FFF1EC] font-light ">
       <Container>
-        <div className="pt-0 flex flex-col justify-between mt-29.25 xl:flex-row lg:gap-3 xl:gap-6">
+        <div className="pt-0 flex flex-col justify-between md:mt-29.25 lg:flex-row gap-20 lg:gap-6">
           <div className="w-full flex flex-col gap-4.5 ">
-            <h1 className="text-[70px] font-semibold leading-22 text-black">
-              Your money, <br />your rules
+            <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black">
+              Your money, <br className="hidden md:block"/>your rules
             </h1>
-            <div className="flex flex-col gap-12 w-118.5">
-              <p className="text-[#3B3939] text-[20px] leading-6.25">
+            <div className="flex flex-col gap-8 md:gap-12 md:w-118.5">
+              <p className="text-[#3B3939] md:text-[20px] leading-6.25">
                 While you’re sending, receiving, or managing transactions, the app provides a seamless, secure, and user-friendly experience for you.
               </p>
               <div className="flex gap-14">
-                <img src="/images/app-store.svg" alt="App store" />
-                <img src="/images/play-store.svg" alt="Play store" />
+                <Image width={100} height={100} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit"/>
+                <Image width={100} height={100} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
               </div>
             </div>
           </div>
-          <div className=" w-full h-full px-8">
-            <img src="/images/personal-hero.png" alt="Personal Hero" />
+          <div className=" w-full h-full flex justify-center items-center px-8">
+            <Image width={900} height={900} src="/images/personal-hero.png" alt="Personal Hero" />
           </div>
         </div>
       </Container>
 
       {/* Sections */}
-      <div className="mt-35 flex flex-col gap-40 bg-white">
+      <div className="mt-20 md:mt-35 flex flex-col gap-20 md:gap-40 bg-white">
         <PersonalFeat 
-          className="mt-30" 
+          className="mt-15 md:mt-30" 
           cards={cardFeat} 
-          header={<>Make fast, easy payments with the <br /> RoutePay mobile app.</>}
+          header={<>Make fast, easy payments with the <br className="hidden md:block" /> RoutePay mobile app.</>}
         />
         <FAQ cards={cards} />
         <DownloadApp />

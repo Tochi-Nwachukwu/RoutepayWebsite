@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Container from "./Container";
+import Image from "next/image";
 
 interface StripItem {
   img: string;
@@ -43,15 +44,32 @@ export default function Hello() {
   }, []);
 
   return (
-    <div className="mt-16 flex  relative">
+    <div className="ms:mt-16 flex  relative">
       <Container>
-        <div className="flex flex-col relative gap-26">
-          <div className=" h-full w-215.75   lg:flex flex-col bg-cover rounded-xl items-start justify-start ">
-            <img src="/images/hello.png" alt="Hello" />
-            <h3 className="absolute text-[60px] leading-19 xl:right-35 2xl:right-80 top-25 text-black">
-              {" "}
-              Say Hello! <br /> to convenience
-            </h3>
+        <div className="flex flex-col relative gap-10 md:gap-26">
+          <div className="h-full md:w-215.75   gap-2 md:gap-0 flex flex-col rounded-xl items-start justify-start ">
+            <div>
+              <h3 className="md:absolute text-[25px] md:text-[60px] md:leading-19 xl:right-35 2xl:right-80 top-25 text-black">
+                {" "}
+                Say Hello! <br className="hidden md:block" /> to convenience
+              </h3>
+            </div>
+            <div className="flex justify-center items-center w-full h-full">
+              <Image
+                width={500}
+                height={500}
+                src="/images/hello.png"
+                alt="Hello"
+                className="hidden md:block"
+              />
+              <Image
+                width={500}
+                height={500}
+                src="/images/hello-m.png"
+                alt="Hello"
+                className="w-full h-full md:hidden "
+              />
+            </div>
           </div>
           <div className=" overflow-hidden w-full">
             <div
@@ -66,12 +84,16 @@ export default function Hello() {
                     key={index}
                     className="flex-shrink-0 flex flex-row items-center gap-6.75"
                   >
-                    <img
+                    <Image
+                      width={500}
+                      height={500}
                       src={item.img}
                       alt="Strips"
                       className="w-12.25 h-12.25"
                     />
-                    <h3 className="whitespace-nowrap text-black">{item.text}</h3>
+                    <h3 className="whitespace-nowrap text-black">
+                      {item.text}
+                    </h3>
                   </div>
                 ))}
               </div>
@@ -83,12 +105,16 @@ export default function Hello() {
                     key={index}
                     className="flex-shrink-0 flex flex-row items-center gap-6.75"
                   >
-                    <img
+                    <Image
+                    width={500}
+                    height={500}
                       src={item.img}
                       alt="Strips"
                       className="w-12.25 h-12.25"
                     />
-                    <h3 className="whitespace-nowrap text-black">{item.text}</h3>
+                    <h3 className="whitespace-nowrap text-black">
+                      {item.text}
+                    </h3>
                   </div>
                 ))}
               </div>

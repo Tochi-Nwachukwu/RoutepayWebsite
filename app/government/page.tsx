@@ -9,6 +9,7 @@ import PersonalFeat from "../../components/PersonalFeat";
 import animationData1 from "../../assets/car-animate.json";
 import animationData2 from "../../assets/verify.json";
 import animationData3 from "../../assets/contact-us.json";
+import Image from "next/image";
 
 const cards = [
   {
@@ -87,22 +88,27 @@ export default function GovernmentPage() {
   return (
     <div className="bg-white font-light ">
       <Container>
-        <div className="flex flex-col text-black gap-18 mt-18  ">
-          <div className="flex flex-row  justify-center items-center text-center   ">
+        <div className="flex flex-col text-black gap-12 md:gap-18 md:mt-18  ">
+          <div className="flex flex-row  justify-center items-center md:text-center   ">
             {/* Header Text */}
-            <div className=" flex flex-col gap-4  w-full ">
-              <h1 className="text-[70px] leading-22 text-black font-semibold">
+            <div className=" flex flex-col gap-2 md:gap-4  w-full ">
+              <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">
                 Join a League of Builders And Visionaries
               </h1>
-              <p className="text-[20px] text-[#3B3939] leading-6.25">Team up with bold thinkers, makers, and curious minds who turn ideas into real impact.</p>
+              <p className="md:text-[20px] text-[#3B3939] leading-6.25">Team up with bold thinkers, makers, and curious minds who turn ideas into real impact.</p>
             </div>
             {/* Header button */}
           </div>
 
           <div className="w-full h-full mb-20">
-            <img
+            <Image width={500} height={500}
               src="/images/govt-hero.jpg"
-              className="w-full h-full rounded-2xl"
+              className="w-full h-full hidden md:block rounded-2xl"
+              alt="Government Hero"
+            />
+            <Image width={500} height={500}
+              src="/images/govt-hero-m.jpg"
+              className="w-full h-full block md:hidden rounded-2xl"
               alt="Government Hero"
             />
           </div>
@@ -110,19 +116,19 @@ export default function GovernmentPage() {
       </Container>
 
       {/* Sections */}
-      <div className="mt-20 flex flex-col gap-40 bg-white">
+      <div className="md:mt-20 flex flex-col gap-20 md:gap-40 bg-white">
         <HowItWorks
           animate={animate}
           title={"HOW IT WORKS"}
           header={
             <>
-              3 simple steps and <br /> you’re in business
+              3 simple steps and <br className="hidden md:block"/> you’re in business
             </>
           }
         />
         <PersonalFeat 
           cards={cardFeat} 
-          header={<>Digital Infrastructure for Government <br /> Payments</>}
+          header={<>Digital Infrastructure for Government <br className="hidden md:block"/> Payments</>}
         />
         
         <FAQ cards={cards} />

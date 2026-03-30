@@ -40,26 +40,26 @@ export default function Values() {
   return (
     <div className="bg-white font-light ">
       <Container>
-        <div className="flex flex-col text-black gap-18 mt-18  ">
-          <div className="flex flex-col gap-20.25  ">
+        <div className="flex flex-col text-black gap-9 md:gap-18 md:mt-18  ">
+          <div className="flex flex-col gap-10 md:gap-20.25  ">
             {/* Header Text */}
-            <div className=" flex flex-col gap-4  justify-center items-center text-center">
-              <h3 className="text-[18px]  leading-5.75 text-zinc-600">WHAT WE STAND FOR</h3>
-              <h3 className="text-[50px] leading-15.75 text-black">Our Values</h3>
-              <p className="text-[20px] leading-6.25 text-[#555151]">
+            <div className=" flex flex-col gap-2 md:gap-4  md:justify-center md:items-center md:text-center">
+              <h3 className="md:text-[18px]  leading-5.75 text-zinc-600">WHAT WE STAND FOR</h3>
+              <h3 className="text-[30px] md:text-[50px] md:leading-15.75 text-black">Our Values</h3>
+              <p className="md:text-[20px] leading-6.25 text-[#555151]">
                 We’re a deeply mission-driven company, and these are the core
                 ideas we return to when we make decisions.
               </p>
             </div>
             <div className="flex-col flex gap-5">
-              <div className="grid grid-cols-2 gap-5">
+              <div className="grid lg:grid-cols-2 gap-5">
                 {firstRow.map((item, index) => (
                   <ValueItemCard key={index} item={item} />
                 ))}
               </div>
 
               {/* ROW 2 → 3 columns */}
-              <div className="grid grid-cols-3 gap-5">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {secondRow.map((item, index) => (
                   <ValueItemCard key={index} item={item} />
                 ))}
@@ -74,11 +74,11 @@ export default function Values() {
 
 function ValueItemCard({ item }: { item: ValueCard }) {
   return (
-    <div className="flex flex-col gap-10 bg-[#FFF1EC] rounded-[30px] p-10">
-      <img src={item.src} alt="Values" className="w-25 h-25" />
+    <div className="flex flex-col gap-10 bg-[#FFF1EC] rounded-[30px] p-8 md:p-10">
+      <img src={item.src} alt="Values" className="w-20 md:w-25 h-20 md:h-25" />
       <div className="flex flex-col gap-4">
-        <h3 className="text-[30px] text-black">{item.header}</h3>
-        <p className="text-[18px] text-[#4D4A4A]">{item.text}</p>
+        <h3 className="text-[25px] md:text-[30px] text-black">{item.header}</h3>
+        <p className="md:text-[18px] text-[#4D4A4A]">{item.text}</p>
       </div>
     </div>
   );

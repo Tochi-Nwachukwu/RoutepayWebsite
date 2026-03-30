@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Btn from "./Btn";
 import Container from "./Container";
 
@@ -5,29 +6,29 @@ export default function WebApp() {
   return (
     <div className="bg-[#31160D] ">
       <Container>
-        <div className="flex flex-col gap-20 mt-20 mb-20 text-white ">
-          <div className="flex flex-row  justify-center items-center     ">
+        <div className="flex flex-col gap-20 mt-5 md:mt-20 mb-20 text-white ">
+          <div className="flex flex-col gap-14 md:gap-0  md:flex-row  justify-center items-center     ">
             {/* Header Text */}
             <div className="w-full flex flex-col gap-24.75">
-              <div className=" flex flex-col gap-6  w-[70%] ">
-                <h3 className="text-[18px]  leading-5.75 ">
+              <div className=" flex flex-col gap-2 md:gap-6  md:w-[70%] ">
+                <h3 className="md:text-[18px]  leading-5.75 ">
                   EXPLORE
                 </h3>
-                <h2 className="text-[50px] leading-15.75 text-white">
+                <h2 className="text-[30px] md:text-[50px] md:leading-15.75 text-white">
                   Ready to simplify your business?
                 </h2>
-                <Btn
-                  text="Get Started"
-                  link="https://portal.routepay.com/register?source=MerchantPortal"
-                  color={true}
-                />
+                 <button className="rounded-[30px] w-35 md:w-50 font-normal md:font-medium text-white bg-[#F05A24] flex flex-row justify-center items-center px-0 py-2 md:py-3 md:text-[16px] gap-3">
+                {" "}
+                <p>Get Started</p>{" "}
+              </button>
+              
               </div>
 
               {/* Links */}
             </div>
             {/* Header button */}
             <div className=" flex flex-col gap-8 justify-end  w-full h-full">
-              <img src="/images/web-hero.png" alt="Web Hero" className="w-full h-full" />
+              <Image width={500} height={500} src="/images/web-hero.png" alt="Web Hero" className="w-full h-full" />
             </div>
           </div>
         </div>

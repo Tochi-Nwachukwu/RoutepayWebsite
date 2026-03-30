@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Container from "./Container";
+import Image from "next/image";
 
 interface LinkItem {
   text: string;
@@ -45,36 +46,36 @@ const Footer = () => {
   return (
     <div>
       <Container>
-        <div className="bg-white text-black font-light py-10 flex flex-col gap-[82px] mt-20">
+        <div className="bg-white text-black font-light py-10 flex flex-col gap-20.5 mt-20">
           <section className="grid  md:flex  gap-16 md:gap-20 xl:gap-40">
-            <div className="flex gap-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
               {/* Peronal */}
-              <div className="flex flex-col gap-4 w-full">
-                <p className="font-normal text-[18px]">Personal</p>
-                <div className="text-[14px] leading-7.5">
+              <div className="flex flex-col gap-2 md:gap-4 w-full">
+                <p className="font-normal md:text-[18px]">Personal</p>
+                <div className="text-[14px] leading-6.5 md:leading-7.5">
                   RoutePay seamlessly integrates your lifestyle and finances
                   into one place, to simplify and enhance your financial
                   journey.
                 </div>
               </div>
               {/* Business */}
-              <div className="flex flex-col gap-4 w-full">
-                <p className="font-normal text-[18px]">Business</p>
-                <div className="text-[14px] leading-7.5">
+              <div className="flex flex-col gap-2 md:gap-4 w-full">
+                <p className="font-normal md:text-[18px]">Business</p>
+                <div className="text-[14px] leading-6.5 md:leading-7.5">
                   RoutePay connects all sides of your business, offering you a
                   smooth and straightforward experience, giving you more time to
                   focus on your business while we handle the rest.
                 </div>
               </div>
               {/* Links */}
-              <div className="flex flex-col gap-4 w-full">
-                <p className="font-normal text-[18px]">Company</p>
+              <div className="flex flex-col gap-2 md:gap-4 w-full">
+                <p className="font-normal md:text-[18px]">Company</p>
                 {company.map((item, index) => {
                   return (
                     <Link
                       href={item.href}
                       key={index}
-                      className="hover:text-[#F05A24] text-[14px] leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
+                      className="hover:text-[#F05A24] text-[14px] leading-6.5 md:leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
                     >
                       {item.text}
                     </Link>
@@ -83,14 +84,14 @@ const Footer = () => {
               </div>
               {/* Contact */}
 
-              <div className="flex flex-col gap-4 w-full">
-                <h3 className="font-normal text-[18px]">Contact</h3>
+              <div className="flex flex-col gap-2 md:gap-4 w-full">
+                <h3 className="font-normal md:text-[18px]">Contact</h3>
 
                 {contact.map((item, index) => {
                   return (
                     <Link
                       href="/contact-us"
-                      className="text-[14px] leading-7.5 cursor-pointer"
+                      className="text-[14px] leading-6.5 md:leading-7.5 cursor-pointer"
                       key={index}
                     >
                       {item.text}
@@ -104,12 +105,12 @@ const Footer = () => {
           <section>
             <div className="w-full h-0.5 bg-[#D9D9D9]"></div>
 
-            <div className="flex flex-col gap-19">
-              <div className=" flex flex-row justify-between mt-15">
+            <div className="flex flex-col gap-14  md:gap-19">
+              <div className=" flex gap-13 md:gap-0  flex-col md:flex-row justify-between mt-15">
                 <div className="">
-                  <img src="/images/logo.svg" alt="" />
-                  <div className="flex justify-end">
-                    <p className="font-normal text-[#555151] leading-7 text-[18px]">
+                  <Image width={500} height={500} src="/images/logo.svg" alt=""  className="w-[250] md:w-fit"/>
+                  <div className="flex justify-center md:justify-end">
+                    <p className="font-normal text-[#555151] leading-7 md:text-[18px]">
                       Making More Possible.
                     </p>
                   </div>
@@ -119,7 +120,7 @@ const Footer = () => {
                   {iconLinks.map((item, index) => {
                     return (
                       <Link href={item.href} key={index}>
-                        <img src={item.link} alt="Socials" />
+                        <Image width={500} height={500} src={item.link} alt="Socials" />
                       </Link>
                     );
                   })}
@@ -129,13 +130,13 @@ const Footer = () => {
               <div className="flex flex-col gap-8">
               
 
-              <div className="flex flex-row gap-14 text-[16px] font-normal">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-14 text-[16px] font-normal">
                 {extraLinks.map((item, index) => {
                   return (
                     <Link
                       href={item.href}
                       key={index}
-                      className="hover:text-[#F05A24] text-[14px] leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
+                      className="hover:text-[#F05A24] text-[14px] leading-6.5 md:leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
                     >
                       {item.text}
                     </Link>
