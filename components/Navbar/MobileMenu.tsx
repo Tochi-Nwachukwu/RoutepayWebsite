@@ -104,12 +104,14 @@ const MobileMenu = ({ open, setOpen, toggleNav }: MobileMenuProps) => {
             </Link>
           </li>
           <li className="border-b border-solid border-[#F1E7E7] mb-9 pt-9.5">
+            <div className="mb-6">
             <Accordion
               items={company}
               header="Our Company"
               headerText="We are a game-changing Fintech company driven by the desire to ensure that digital payment is made possible and available without hassles."
               setOpen={setOpen}
             />
+            </div>
           </li>
 
           <div className="flex flex-col gap-5 pb-20">
