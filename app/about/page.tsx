@@ -56,14 +56,14 @@ export default function AboutPage() {
   return (
     <div className="bg-[#FFF1EC] font-light ">
       <Container>
-        <div className="flex flex-col text-black gap-9 md:gap-18 md:mt-18">
+        <div className="flex flex-col text-black gap-9 md:gap-18 md:mt-12 xl:mt-18">
           <div className="flex flex-row">
             {/* Header Text */}
             <div className=" flex flex-col gap-2 md:gap-4">
               <h3 className="md:text-[18px]  leading-5.75 text-[#2B74BD]">
                 ABOUT US
               </h3>
-              <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">
+              <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black ">
                 Money shouldn’t feel <br className="hidden md:block" />{" "}
                 complicated.
               </h1>
@@ -77,8 +77,8 @@ export default function AboutPage() {
 
           <div className="w-full flex justify-end h-full mb-20">
             <Image
-              width={500}
-              height={500}
+              width={900}
+              height={900}
               src="/images/about-hero-1.png"
               className=""
               alt="About Hero"
@@ -107,8 +107,8 @@ export default function AboutPage() {
 
           <div className="w-full  flex justify-start h-full mb-20">
             <Image
-              width={500}
-              height={500}
+              width={900}
+              height={900}
               src="/images/about-hero-2.png"
               className=""
               alt="Mission Hero"

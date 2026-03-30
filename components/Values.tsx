@@ -52,7 +52,7 @@ export default function Values() {
               </p>
             </div>
             <div className="flex-col flex gap-5">
-              <div className="grid lg:grid-cols-2 gap-5">
+              <div className="grid md:grid-cols-2 gap-5">
                 {firstRow.map((item, index) => (
                   <ValueItemCard key={index} item={item} />
                 ))}

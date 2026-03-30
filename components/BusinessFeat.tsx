@@ -35,16 +35,16 @@ export default function BusinessFeat({ cards, title, header }: BusinessFeatProps
                 return (
                   <div
                     key={index}
-                    className={`flex flex-col lg:flex-row justify-center items-center gap-10 md:gap-30 lg:gap-10 xl:gap-30 ${
-                      isReversed ? "lg:flex-row-reverse" : ""
+                    className={`flex flex-col md:flex-row justify-center items-center gap-10 md:gap-8 lg:gap-15 xl:gap-30 ${
+                      isReversed ? "md:flex-row-reverse" : ""
                     }`}
                   >
-                    <img  src={item.img} alt="Card Image" className="w-full" />
+                    <img  src={item.img} alt="Card Image" className="w-full md:w-[380] lg:w-[450]" />
                     <div className="flex flex-col gap-4.5 ">
                       <h3 className="text-[30px] md:text-[40px] md:leading-12.5 text-black">
                         {item.header}
                       </h3>
-                      <p className="text-[#3B3939] leading-7.5 text-[18px] md:text-[20px]">
+                      <p className="text-[#3B3939] leading-7.5 text-[18px] lg:text-[20px]">
                         {item.text}
                       </p>
                     </div>

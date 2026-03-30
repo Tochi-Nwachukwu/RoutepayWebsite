@@ -12,7 +12,7 @@ export default function ContactUsPage() {
           <div className="flex flex-row  justify-center items-center md:text-center   ">
             {/* Header Text */}
             <div className=" flex flex-col gap-4  w-full ">
-              <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">Let’s Talk Payments</h1>
+              <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black ">Let’s Talk Payments</h1>
               <p className="md:text-[20px] text-[#3B3939] leading-6.25">
                 Have questions? We have answers. If you can’t find what you{" "}
                 <br className="hidden md:block"/>
@@ -25,7 +25,7 @@ export default function ContactUsPage() {
       </Container>
 
       {/* Sections */}
-      <div className="md:mt-20 flex flex-col gap-20 md:gap-40 bg-white">
+      <div className="xl:mt-20 flex flex-col gap-20 lg:gap-40 bg-white">
         <ContactCards />
         <DownloadApp />
       </div>
