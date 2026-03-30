@@ -6,9 +6,9 @@ import HowItWorks from "../../components/HowItWorks";
 import WebApp from "../../components/WebApp";
 import BusinessFeat from "../../components/BusinessFeat";
 
-import animationData1 from "../../assets/car-animate.json";
-import animationData2 from "../../assets/verify.json";
-import animationData3 from "../../assets/contact-us.json";
+import animationData1 from "../../assets/fast.json";
+import animationData2 from "../../assets/secure.json";
+import animationData3 from "../../assets/cart.json";
 import Image from "next/image";
 
 const cards = [

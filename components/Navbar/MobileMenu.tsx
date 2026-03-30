@@ -54,11 +54,13 @@ const MobileMenu = ({ open, setOpen, toggleNav }: MobileMenuProps) => {
         }`}
       >
         <div className="px-5 py-4 flex items-center justify-between">
+           <Link href="/">
           <Image width={20} height={20}
             src="/images/logo.svg"
             alt="routepay logo"
             className="h-6 w-27.25"
           />
+          </Link>
           <button
             type="button"
             className="pr-2"
