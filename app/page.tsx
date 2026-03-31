@@ -68,12 +68,11 @@ export default function Home() {
         <div className="flex flex-col justify-between items-center lg:flex-row gap-12 md:gap-20 lg:gap-6">
           <div className="w-full flex flex-col  md:gap-4.5 ">
             <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black ">
-              Powering Modern Finances
+              Simplifying Modern Payments
             </h1>
             <div className="flex flex-col gap-8 md:gap-12">
               <p className="text-[#3B3939] md:text-[20px] leading-6.25">
-                From paying bills and sending money to collecting payments and
-                managing transactions all in one platform.
+                We make it easy to send, receive, and make payments in local currencies across growing markets with simple tools and seamless connections.
               </p>
               <div className="flex gap-14 ">
                 <Image
@@ -91,6 +90,7 @@ export default function Home() {
                   className="w-[110] md:w-fit"
                 />
               </div>
+              <p className="text-[#3B3939] md:text-[12px] leading-6.25">Powered by <span className="font-bold ">Routelink Microfinance Bank</span></p>
             </div>
           </div>
           <div className=" w-full h-full xl:px-8 ">
