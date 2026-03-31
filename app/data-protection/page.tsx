@@ -2,7 +2,7 @@
 
 export default function DataProtectionPage() {
   return (
-    <div className="bg-[#F5EDED] px-5 font-light">
+    <div className="px-5 font-light">
       <div className="max-w-[1231px] mx-auto">
         <div className="py-10 flex flex-col items-center justify-center">
           <p className=" bg-[#F05A24] text-white text-center mb-4 lg:mb-[30px] px-2 py-1 rounded-2xl">
