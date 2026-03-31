@@ -108,7 +108,7 @@ const Footer = () => {
                   <Image width={500} height={500} src="/images/logo.svg" alt="" className="w-[250] md:w-fit" />
                   <div className="flex justify-center md:justify-end">
                     <p className="font-normal text-[#555151] leading-7 md:text-[18px]">
-                      Making More Possible.
+                      Payment Beyond Barriers
                     </p>
                   </div>
                 </div>
