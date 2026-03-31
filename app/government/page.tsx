@@ -95,18 +95,26 @@ export default function GovernmentPage() {
               <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">
                 Institutional Payment Management
               </h1>
-              <p className="md:text-[20px] text-[#3B3939] leading-6.25">A unified platform for schools, healthcare agencies, and public institutions. Securely manage fees and disbursements with comprehensive transaction histories and instant reporting.</p>
+              <p className="md:text-[20px] text-[#3B3939] leading-6.25">
+                A unified platform for schools, healthcare agencies, and public
+                institutions. Securely manage fees and disbursements with
+                comprehensive transaction histories and instant reporting.
+              </p>
             </div>
             {/* Header button */}
           </div>
 
           <div className="w-full h-full mb-20">
-            <Image width={500} height={500}
+            <Image
+              width={500}
+              height={500}
               src="/images/govt-hero2.jpg"
               className="w-full h-full hidden md:block rounded-2xl"
               alt="Government Hero"
             />
-            <Image width={500} height={500}
+            <Image
+              width={500}
+              height={500}
               src="/images/govt-hero-m.jpg"
               className="w-full h-full block md:hidden rounded-2xl"
               alt="Government Hero"
@@ -122,17 +130,27 @@ export default function GovernmentPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              3 simple steps and <br className="hidden md:block" /> you’re in business
+              3 simple steps and <br className="hidden md:block" /> you’re in
+              business
             </>
           }
         />
         <PersonalFeat
           cards={cardFeat}
-          header={<>Digital Infrastructure for Government <br className="hidden md:block" /> Payments</>}
+          header={
+            <>
+              Digital Infrastructure for Government{" "}
+              <br className="hidden md:block" /> Payments
+            </>
+          }
         />
 
         <FAQ cards={cards} />
-        <WebApp />
+        <WebApp
+          header="BUILT FOR MODERN GOVERNANCE"
+          text="Empower ministries and agencies"
+          cta="Contact Sales"
+        />
       </div>
     </div>
   );

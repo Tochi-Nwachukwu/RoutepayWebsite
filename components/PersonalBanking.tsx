@@ -12,7 +12,7 @@ interface AnimateItem {
 
 const animate: AnimateItem[] = [
   {
-    src: "/images/bank-1.png",
+    src: "/images/stock-1.png",
     header: "Access Fast Micro-Loans",
     text: "Get flexible loans tailored to your personal needs. Enjoy rapid approvals and easy repayment options.",
   },
