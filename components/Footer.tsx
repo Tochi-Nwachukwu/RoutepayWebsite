@@ -16,7 +16,6 @@ const contact = [
   { text: "Start a Chat" },
   { text: "+234 913 444 6536" },
   { text: "sales@routepay.com" },
-  { text: "customersupport@routepay.com" },
   {
     text: "Ground Floor, Africa Re House, Plot 1679 Karimu Kotun St, Victoria Island, Lagos",
   },
@@ -24,9 +23,10 @@ const contact = [
 
 const company: LinkItem[] = [
   { text: "About us", href: "/about" },
-  { text: "Our Culture", href: "/" },
-  { text: "Insight Blog", href: "/" },
-  { text: "FAQ", href: "/" },
+  { text: "Personal", href: "/perosnal" },
+  { text: "Contact Us", href: "/contact-us" },
+  { text: "Business", href: "/business" },
+  { text: "Goverment", href: "/governmnet" },
 ];
 
 const iconLinks: SocialLink[] = [

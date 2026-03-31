@@ -116,7 +116,7 @@ export default function Home() {
       <Container>
         <div className="flex flex-col justify-between items-center lg:flex-row gap-12 md:gap-20 lg:gap-6">
           <div className="w-full flex flex-col  md:gap-4.5 ">
-            <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black ">
+            <h1 className="text-[40px] md:text-[60px] lg:text-[55px] xl:text-[70px] md:leading-22 text-black ">
               Simplifying Modern Payments
             </h1>
             <div className="flex flex-col gap-8 md:gap-12">
@@ -139,7 +139,7 @@ export default function Home() {
                   className="w-[110] md:w-fit"
                 />
               </div>
-              <p className="text-[#3B3939] md:text-[12px] leading-6.25">Powered by <span className="font-bold ">Routelink Microfinance Bank</span></p>
+              <p className="text-[#3B3939] md:text-[12px] leading-6.25">Powered by <span className="font-medium">Routelink Microfinance Bank</span></p>
             </div>
           </div>
           <div className=" w-full h-full xl:px-8 ">

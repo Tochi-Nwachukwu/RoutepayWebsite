@@ -1,83 +1,6 @@
-"use client";
-
-import Image from "next/image";
-import Container from "./Container";
-import { useRef, useEffect, useState } from "react";
-
-interface AnimateItem {
-  src: string;
-  header: string;
-  text: string;
-}
-
-const animate: AnimateItem[] = [
-  {
-    src: "/images/bank-1.png",
-    header: "Access Fast Micro-Loans",
-    text: "Get flexible loans tailored to your personal needs. Enjoy rapid approvals and easy repayment options.",
-  },
-  {
-    src: "/images/sample-2.png",
-    header: "Transfer Money at Blazing Speed",
-    text: "Send money effortlessly to any account across every bank in Nigeria.",
-  },
-  {
-    src: "/images/govt-1.png",
-    header: "Utility Payments Made Easy",
-    text: "Pay for electricity, internet, TV subscriptions, and more in just a few taps.",
-  },
-  {
-    src: "/images/bank-1.png",
-    header: "Zero Hidden Charges",
-    text: "No hidden fees, no surprises. We maintain total transparency so you always know where your money goes.",
-  },
-];
-
-export default function PersonalBanking() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
-  const touchStartX = useRef<number>(0);
-  const touchEndX = useRef<number>(0);
-
-  const startAutoPlay = () => {
-    if (intervalRef.current) {
-      clearInterval(intervalRef.current);
-    }
-
-    intervalRef.current = setInterval(() => {
-      setActiveIndex((i) => (i + 1) % animate.length);
-    }, 3000);
-  };
-
-  const handleClick = (index: number) => {
-    setActiveIndex(index);
-    startAutoPlay();
-  };
-
-  const handleSwipe = () => {
-    const diff = touchStartX.current - touchEndX.current;
-    if (Math.abs(diff) < 50) return; // ignore small movements
-    if (diff > 0) {
-      // swiped left → next
-      setActiveIndex((i) => (i + 1) % animate.length);
-    } else {
-      // swiped right → prev
-      setActiveIndex((i) => (i - 1 + animate.length) % animate.length);
-    }
-    startAutoPlay();
-  };
-
-  useEffect(() => {
-    startAutoPlay();
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, []);
-
-  return (
-    <div className="bg-[#FFF1EC] ">
+<div className="bg-[#FFF1EC] ">
       <Container>
-        <div className="flex flex-col lg:flex-row mb-20 ">
+        <div className="flex flex-col lg:flex-row mb-20 bg-green-300">
           <div className=" md:mt-20 lg:mt-0 lg:hidden flex flex-col gap-2 md:gap-4">
             <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
               PERSONAL BANKING
@@ -88,7 +11,7 @@ export default function PersonalBanking() {
           </div>
 
           <div
-            className="mt-5 md:mt-20 lg:mt-55 h-[400]   md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] flex 2xl:justify-center"
+            className="mt-5 md:mt-20 lg:mt-80 h-[400]  md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] flex 2xl:justify-center"
             onTouchStart={(e) => {
               touchStartX.current = e.changedTouches[0].clientX;
             }}
@@ -107,8 +30,8 @@ export default function PersonalBanking() {
           </div>
 
           {/* Header Text */}
-          <div className=" flex flex-row lg:flex-col gap-8 md:gap-30   md:mt-20 w-fit  ml-auto">
-            <div className="hidden lg:flex flex-col gap-2 md:gap-4 w-100 ml-auto ">
+          <div className=" flex flex-row lg:flex-col gap-8 md:gap-30 bg-amber-200  md:mt-20 w-fit  ml-auto">
+            <div className="hidden lg:flex flex-col gap-2 md:gap-4">
               <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
                 PERSONAL BANKING
               </h3>
@@ -118,7 +41,7 @@ export default function PersonalBanking() {
             </div>
 
             {/* Carousel Texts */}
-            <div className="flex flex-col lg:flex-row lg:w-100 gap-4  ml-auto lg:gap-7">
+            <div className="flex flex-col lg:flex-row lg:w-100 gap-4 lg:gap-7">
               <div className="flex lg:hidden flex-row justify-center items-center gap-2 mt-8">
                 {animate.map((_, index) => (
                   <button
@@ -170,5 +93,3 @@ export default function PersonalBanking() {
         </div>
       </Container>
     </div>
-  );
-}

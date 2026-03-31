@@ -23,7 +23,7 @@ const animate: AnimateItem[] = [
     text: "Simplify payments for permits, registrations, and licenses with fast, user-friendly processing, instant confirmations.",
   },
   {
-    src: "/images/bank-1.png",
+    src: "/images/sample-2.png",
     header: "Regulatory Fees",
     text: "Streamline the collection of regulatory and administrative fees with automated reconciliation, transparent reporting.",
   },
