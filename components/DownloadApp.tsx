@@ -14,9 +14,9 @@ export default function DownloadApp() {
                   GET THE APP
                 </h3>
                 <h3 className="text-[30px] md:text-[40px] xl:text-[50px] md:leading-15.75 text-black">
-                  Ready for a platform that just... works?
+                  Payment infrastructure, perfected.
                 </h3>
-                <p className="text-zinc-600">Grab the app and explore all the features <br className="hidden lg:block" /> today.</p>
+                <p className="text-zinc-600">Ready for a platform that just... works? Download the app and explore all the features <br className="hidden lg:block" /> today.</p>
               </div>
               <div className="flex gap-14">
                 <a href="https://apps.apple.com/ng/app/RoutePay-fintech/id6502836208">

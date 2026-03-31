@@ -9,29 +9,29 @@ import PersonalFeat from "../../components/PersonalFeat";
 const cards = [
   {
     header: "What is RoutePay?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
-  },
-  {
-    header: "What payment options are available?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    text: "RoutePay is a premier financial and lifestyle platform designed to make your daily transactions effortless. We provide a seamless ecosystem where you can send money, pay bills, and manage your finances in one place, without barriers.",
   },
   {
     header: "Is RoutePay a bank?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    text: "We are a fintech company licensed by the Central Bank of Nigeria (CBN) as a Payment Solution Service Provider (PSSP). While we aren't a traditional bank, we provide the secure digital infrastructure that makes managing your money faster and more efficient.",
   },
   {
-    header: "Why do you need my BVN?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "What bills can I pay on the platform?",
+    text: "You can handle all your essential utility payments with just a few taps. This includes electricity bills, internet data, cable TV subscriptions (DSTV, GOTV, StarTimes), and mobile airtime for all major Nigerian networks.",
   },
   {
-    header: "How do I create an account?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "What are the KYC levels and transaction limits?",
+    text: "To keep your account secure, we use a tiered KYC system. Starting with just your name and phone number (Tier 1), you can perform basic transactions. Verifying your BVN and address (Tier 3) unlocks the highest daily transfer and withdrawal limits.",
   },
   {
-    header: "How do I contact customer support?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "What if a transaction fails but I am debited?",
+    text: "Don't worry—our system uses auto-reversal protocols that typically resolve failed transactions within 24 hours. If it takes longer, simply log a dispute in the app, and our support team will fix it immediately.",
   },
-];
+  {
+    header: "Are there any monthly maintenance fees?",
+    text: "Absolutely not. RoutePay doesn't charge monthly maintenance fees or hidden 'surprises.' We believe in total transparency, charging only minimal, industry-standard fees per transaction so you keep more of your money.",
+  },
+]
 
 const cardFeat = [
   {
@@ -58,6 +58,11 @@ const cardFeat = [
     img: "/images/personal-5.png",
     header: "Online Payments",
     text: "Make everyday purchases and online payments smoother from subscriptions to digital services all in one place.",
+  },
+  {
+    img: "/images/personal-5.png",
+    header: "Micro Loans",
+    text: "Access quick and flexible micro-loans to meet your short-term financial needs, right from the app.",
   },
 ];
 
