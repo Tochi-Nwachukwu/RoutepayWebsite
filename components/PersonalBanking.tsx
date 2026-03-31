@@ -12,7 +12,7 @@ interface AnimateItem {
 
 const animate: AnimateItem[] = [
   {
-    src: "/images/stock-01.png",
+    src: "/images/stock-10.png",
     header: "Access Fast Micro-Loans",
     text: "Get flexible loans tailored to your personal needs. Enjoy rapid approvals and easy repayment options.",
   },
@@ -27,7 +27,7 @@ const animate: AnimateItem[] = [
     text: "Pay for electricity, internet, TV subscriptions, and more in just a few taps.",
   },
   {
-    src: "/images/stock-4.png",
+    src: "/images/stock-04.png",
     header: "Zero Hidden Charges",
     text: "No hidden fees, no surprises. We maintain total transparency so you always know where your money goes.",
   },
@@ -89,7 +89,7 @@ export default function PersonalBanking() {
 
           <div
             className="mt-5 md:mt-20 lg:mt-120 xl:mt-100 h-[350]
-              items-center   md:h-[850]  lg:h-full lg:w-[58%] xl:w-[50%]  flex justify-center"
+              items-center   md:h-full  lg:h-full  xl:w-[50%] flex justify-center"
             onTouchStart={(e) => {
               touchStartX.current = e.changedTouches[0].clientX;
             }}
@@ -103,23 +103,23 @@ export default function PersonalBanking() {
               height={400}
               src={animate[activeIndex].src}
               alt="personal banking"
-              className="transition-all w-full lg:w-[80%]  h-fit duration-500"
+              className="transition-all w-full md:w-[50%] lg:w-[80%]  h-fit duration-500"
             />
           </div>
 
           {/* Header Text */}
-          <div className=" flex flex-row lg:flex-col gap-8 md:gap-30   md:mt-20 w-fit  ml-auto">
+          <div className=" flex flex-row lg:flex-col gap-8 md:gap-30 md:mt-20 w-full lg:w-fit  ml-auto">
             <div className="hidden lg:flex flex-col gap-2 md:gap-4  ml-auto ">
               <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
                 PERSONAL BANKING
               </h3>
-              <h3 className="text-[30px] md:text-[50px] leading-15.75 text-black">
+              <h3 className="text-[30px] md:text-[50px] lg:w-100 leading-15.75 text-black">
                 RoutePay For Everyone
               </h3>
             </div>
 
             {/* Carousel Texts */}
-            <div className="flex flex-col lg:flex-row  gap-4  ml-auto lg:gap-7">
+            <div className="flex flex-col lg:flex-row  gap-4  lg:ml-auto w-full lg:gap-7">
               <div className="flex lg:hidden flex-row justify-center items-center gap-2 mt-8">
                 {animate.map((_, index) => (
                   <button
@@ -142,11 +142,11 @@ export default function PersonalBanking() {
                   }}
                 ></div>
               </div>
-              <div className="flex  flex-col  lg:w-100 gap-14 cursor-pointer">
+              <div className="flex  flex-col w-full lg:w-100 gap-14 cursor-pointer">
                 {animate.map((item, index) => {
                   return (
                     <div
-                      className={`flex flex-col gap-8 transition-all duration-500 ${
+                      className={`flex flex-col w-full gap-8 transition-all duration-500 ${
                         index === activeIndex
                           ? "opacity-100 translate-x-0"
                           : "opacity-100 translate-x-2 hidden lg:flex"

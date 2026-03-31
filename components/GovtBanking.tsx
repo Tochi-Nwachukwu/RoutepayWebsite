@@ -23,12 +23,12 @@ const animate: AnimateItem[] = [
     text: "Simplify payments for permits, registrations, and licenses with fast, user-friendly processing, instant confirmations.",
   },
   {
-    src: "/images/icon-2.png",
+    src: "/images/icon-03.png",
     header: "Regulatory Fees",
     text: "Streamline the collection of regulatory and administrative fees with automated reconciliation, transparent reporting.",
   },
   {
-    src: "/images/icon-4.png",
+    src: "/images/icon-04.png",
     header: "Institutional Payments",
     text: "Manage payments for public institutions such as schools and agencies with audit-ready records, secure transaction history.",
   },
@@ -98,7 +98,7 @@ export default function GovtBanking() {
               </div>
             </div>
             <div
-              className="h-[340] bg-green-300 lg:hidden flex items-center justify-center"
+              className="h-[340] md:h-full lg:h-[700] lg:hidden flex items-center justify-center"
               onTouchStart={(e) => {
                 touchStartX.current = e.changedTouches[0].clientX;
               }}
@@ -112,7 +112,7 @@ export default function GovtBanking() {
                 height={500}
                 src={animate[activeIndex].src}
                 alt="government banking"
-                className="transition-all w-full h-fit duration-500"
+                className="transition-all w-full md:w-[505] h-fit duration-500"
               />
             </div>
 
