@@ -13,7 +13,7 @@ interface AnimateItem {
 
 const animate: AnimateItem[] = [
   {
-    src: "/images/bank-1.png",
+    src: "/images/taxes-img.png",
     header: "Taxes",
     text: "Enable secure and efficient tax collection through reliable digital payment channels, with real-time tracking that improves compliance. ",
   },
