@@ -143,7 +143,7 @@ const Footer = () => {
                 <div>
                   <p className=" leading-6.25 text-[14px]">
                     Banking services on this platform are provided by Routelink Microfinance Bank Limited (RC 8836108), located at 71a, Lagos Ikorodu road, Ikorodu Lagos state. Routelink Microfinance Bank Limited is duly licensed by the Central Bank of Nigeria. <br /> <br />
-                    RoutePay Fintech Limited (RC 1872711) is licensed by the Central Bank of Nigeria (CBN) as a Payment Solution Service Provider (PSSP) and is further certified by the Nigerian Communications Commission (NCC) for Value-Added Services (VAS).
+                    RoutePay Fintech Limited (RC 1872221) is licensed by the Central Bank of Nigeria (CBN) as a Payment Solution Service Provider (PSSP) and is further certified by the Nigerian Communications Commission (NCC) for Value-Added Services (VAS).
                     <br></br>
                     Other services offered on this platform are provided by their respective providers, all of whom are duly licensed or legally permitted to operate in partnership with Routelink.<br /> <br />
                     Registered Office: 4th Floor, Africa Re House, Plot 1679 Karimu Kotun St, Victoria Island, Lagos. <br /> <br />© 2026
