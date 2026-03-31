@@ -23,12 +23,12 @@ const animate: AnimateItem[] = [
     text: "Simplify payments for permits, registrations, and licenses with fast, user-friendly processing, instant confirmations.",
   },
   {
-    src: "/images/sample-2.png",
+    src: "/images/icon-2.png",
     header: "Regulatory Fees",
     text: "Streamline the collection of regulatory and administrative fees with automated reconciliation, transparent reporting.",
   },
   {
-    src: "/images/govt-1.png",
+    src: "/images/icon-4.png",
     header: "Institutional Payments",
     text: "Manage payments for public institutions such as schools and agencies with audit-ready records, secure transaction history.",
   },
@@ -166,8 +166,8 @@ export default function GovtBanking() {
               </div>
             </div>
           </div>
-          <div className="lg:mt-180 xl:mt-150  w-full hidden lg:flex h-[350]
-              items-center   md:h-[850]  lg:h-full lg:w-full  bg-green-200  justify-center">
+          <div className="lg:mt-190 xl:mt-160   w-full hidden lg:flex h-[350]
+              items-center   md:h-[850]  lg:h-full lg:w-full   justify-center">
             <Image
               width={500}
               height={500}
