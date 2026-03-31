@@ -20,22 +20,21 @@ export default function BankingBusiness() {
             {/* Header button */}
             <div className=" flex flex-col gap-8 md:justify-end  lg:w-76.75 ">
               <h3 className="text-[18px] md:text-[20px] leading-7 ">
-                Simplify your processes, save time, and focus on growth while we
-                handle the heavy lifting.
+                Launch your store, generate payment links, and manage your finances, all from one powerful dashboard.
               </h3>
               <Btn
-                text=" Take a closer look "
+                text=" Setup Business Account"
                 link="https://portal.routepay.com/register?source=MerchantPortal"
                 color={true}
               />
             </div>
           </div>
-        
 
-        <div className="w-full h-full  mb-20">
-          <Image width={500} height={500} src="/images/business-hero.png" className="w-full h-full lg:block hidden" alt="" />
-           <Image width={500} height={500} src="/images/business-hero-m.png" className="w-full h-full block lg:hidden" alt="" />
-        </div>
+
+          <div className="w-full h-full  mb-20">
+            <Image width={500} height={500} src="/images/business-hero.png" className="w-full h-full lg:block hidden" alt="" />
+            <Image width={500} height={500} src="/images/business-hero-m.png" className="w-full h-full block lg:hidden" alt="" />
+          </div>
         </div>
       </Container>
     </div>

@@ -83,15 +83,15 @@ export default function GovtBanking() {
           <div className="flex flex-col gap-8 md:gap-30  md:mt-20  w-fit justify-center mr-auto">
             <div className=" flex flex-col gap-2 md:gap-4">
               <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
-                GOVERNMENT BANKING
+                GOVERNMENT SOLUTIONS
               </h3>
 
               <div className="flex flex-col gap-4 md:gap-8">
                 <h3 className="text-[30px] md:text-[50px] md:leading-15.75 text-black">
-                  Digital Infrastructure for Government Payments
+                 Empowering Government with Modern Payment Infrastructure
                 </h3>
                 <Btn
-                  text=" Learn More"
+                  text=" Contact Sales"
                   link="https://portal.routepay.com/register?source=MerchantPortal"
                   color={true}
                 />
