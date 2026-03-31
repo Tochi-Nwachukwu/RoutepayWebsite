@@ -35,32 +35,32 @@ const cards = [
 
 const cardFeat = [
   {
-    img: "/images/personal-1.png",
+    img: "/images/color-1.png",
     header: "Local Transfers",
     text: "Send money instantly to friends, family, and customers anywhere in Nigeria with ease and reliability.",
   },
   {
-    img: "/images/personal-2.png",
+    img: "/images/color-2.png",
     header: "Airtime Purchase",
     text: "Top up any mobile network in seconds MTN, Airtel, 9Mobile, and Glo all in one place.",
   },
   {
-    img: "/images/personal-3.png",
+    img: "/images/color-3.png",
     header: "Cable TV Payments",
     text: "Stay connected by paying your DStv, GOtv, and other cable subscriptions quickly and hassle-free.",
   },
   {
-    img: "/images/personal-4.png",
+    img: "/images/color-4.png",
     header: "Electricity Bills",
     text: "Effortlessly settle your electricity bills for all supported providers, directly from the platform.",
   },
   {
-    img: "/images/personal-5.png",
+    img: "/images/color-5.png",
     header: "Online Payments",
     text: "Make everyday purchases and online payments smoother from subscriptions to digital services all in one place.",
   },
   {
-    img: "/images/personal-5.png",
+    img: "/images/color-6.png",
     header: "Micro Loans",
     text: "Access quick and flexible micro-loans to meet your short-term financial needs, right from the app.",
   },

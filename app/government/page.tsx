@@ -66,27 +66,27 @@ const animate = [
 
 const cardFeat = [
   {
-    img: "/images/personal-1.png",
+    img: "/images/color-1.png",
     header: "Revenue Collection",
     text: "Enable secure and efficient tax collection through trusted digital channels.",
   },
   {
-    img: "/images/personal-2.png",
+    img: "/images/color-2.png",
     header: "Permits & Licensing",
     text: "Simplify payments for permits, registrations, and licenses with fast processing, smooth user experience.",
   },
   {
-    img: "/images/personal-3.png",
+    img: "/images/color-3.png",
     header: "Regulatory Charges",
     text: "Streamline the collection of regulatory and administrative fees with automated reconciliation.",
   },
   {
-    img: "/images/personal-4.png",
+    img: "/images/color-4.png",
     header: "Public Institution Payments",
     text: "Manage payments for schools, agencies, and public institutions with secure transaction history.",
   },
   {
-    img: "/images/personal-5.png",
+    img: "/images/color-5.png",
     header: "Government Services",
     text: "Enable seamless payment of public service charges such as fines, applications.",
   },
