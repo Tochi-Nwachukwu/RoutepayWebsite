@@ -8,11 +8,11 @@ export default function TermsPage() {
           <p className=" bg-[#F05A24] text-white text-center mb-4 lg:mb-[30px] px-2 py-1 rounded-2xl">
             Terms of use
           </p>
-          <h1 className="text-[40px] text-center text-black font-semibold">Terms and Conditions</h1>
+          <h1 className="text-[40px] text-center text-black ">Terms and Conditions</h1>
         </div>
         <div className="">
-          <h3 className="text-[#F05A24] text-2xl font-medium">Terms of Use</h3>
-          <p className="font-bold text-[#4D4A4A]">
+          <h3 className="text-[#F05A24] text-2xl ">Terms of Use</h3>
+          <p className=" text-[#4D4A4A]">
             Last updated March 26, 2025
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function TermsPage() {
             records.
           </p>
 
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">Our Services</h3>
+          <h3 className="text-[#F05A24] text-2xl my-8 ">Our Services</h3>
 
           <p>
             The information provided when using the Services is not intended for
@@ -83,11 +83,11 @@ export default function TermsPage() {
             with local laws, if and to the extent local laws are applicable.
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             Intellectual Property Rights
           </h3>
 
-          <h6 className="font-bold">Our intellectual property</h6>
+          <h6 className="">Our intellectual property</h6>
 
           <p>
             We are the owner or the licensee of all intellectual property rights
@@ -109,7 +109,7 @@ export default function TermsPage() {
             purpose only.
           </p>
 
-          <h6 className="font-bold mb-4">Your use of our Services</h6>
+          <h6 className=" mb-4">Your use of our Services</h6>
 
           <p>
             Subject to your compliance with these Legal Terms, including
@@ -156,7 +156,7 @@ export default function TermsPage() {
             Services will terminate immediately.
           </p>
           <br />
-          <h6 className="font-bold">Your submissions</h6>
+          <h6 className="">Your submissions</h6>
 
           <br />
           <p>
@@ -167,7 +167,7 @@ export default function TermsPage() {
           </p>
 
           <br />
-          <h6 className="font-bold">Submissions</h6>
+          <h6 className="">Submissions</h6>
 
           <br />
           <p>
@@ -182,7 +182,7 @@ export default function TermsPage() {
           <br />
           <br />
           <p>
-            <span className="font-bold">
+            <span className="">
               You are responsible for what you post or upload: 
             </span>{" "}
             By sending us Submissions through any part of the Services you:
@@ -219,7 +219,7 @@ export default function TermsPage() {
             intellectual property rights, or (c) applicable law.
           </p>
 
-          <h3 className="mt-8 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-8 mb-4 text-[#F05A24] text-2xl ">
             User Representations
           </h3>
 
@@ -245,7 +245,7 @@ export default function TermsPage() {
             Services (or any portion thereof).
           </p>
 
-          <h3 className="mt-6 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-6 mb-4 text-[#F05A24] text-2xl ">
             User Registration
           </h3>
 
@@ -258,7 +258,7 @@ export default function TermsPage() {
             otherwise objectionable.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Products</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Products</h3>
 
           <p>
             We make every effort to display as accurately as possible
@@ -273,7 +273,7 @@ export default function TermsPage() {
             for any reason. Prices for all products are subject to change.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Purchases and Payment
           </h3>
 
@@ -321,13 +321,13 @@ export default function TermsPage() {
             dealers, resellers, or distributors.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Return/refunds policy
           </h3>
 
           <p>All sales are final and no refund will be issued.</p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Prohibited Activities
           </h3>
 
@@ -451,7 +451,7 @@ export default function TermsPage() {
             </li>
           </ul>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             User generated contributions
           </h3>
 
@@ -546,7 +546,7 @@ export default function TermsPage() {
             suspension of your rights to use the Services.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Contribution License
           </h3>
 
@@ -576,7 +576,7 @@ export default function TermsPage() {
             regarding your Contributions.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Guidelines for Reviews
           </h3>
 
@@ -613,10 +613,10 @@ export default function TermsPage() {
             review.
           </p>
 
-          <h3 className="mt-5 mb-2 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-2 text-[#F05A24] text-2xl ">
             Mobile Application License
           </h3>
-          <h6 className="font-bold mb-3">Use License</h6>
+          <h6 className=" mb-3">Use License</h6>
 
           <p>
             If you access the Services via the App, then we grant you a
@@ -647,7 +647,7 @@ export default function TermsPage() {
             with the App.
           </p>
 
-          <h6 className="font-bold my-3">Apple and Android Devices</h6>
+          <h6 className=" my-3">Apple and Android Devices</h6>
 
           <p>
             The following terms apply when you use the App obtained from either
@@ -686,7 +686,7 @@ export default function TermsPage() {
             you as a third-party beneficiary thereof.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Services Management
           </h3>
 
@@ -713,7 +713,7 @@ export default function TermsPage() {
             the Services.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Privacy Policy</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Privacy Policy</h3>
 
           <p>
             We care about data privacy and security. Please review our Privacy
@@ -728,7 +728,7 @@ export default function TermsPage() {
             to and processed in Nigeria.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Term & Termination
           </h3>
 
@@ -757,7 +757,7 @@ export default function TermsPage() {
             civil, criminal, and injunctive redress.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Modifications and Interruptions
           </h3>
 
@@ -788,7 +788,7 @@ export default function TermsPage() {
             releases in connection therewith.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Governing Law</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Governing Law</h3>
 
           <p>
             These Legal Terms shall be governed by and defined following the
@@ -798,11 +798,11 @@ export default function TermsPage() {
             Legal Terms.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Dispute Resolution
           </h3>
 
-          <h6 className="font-bold">Informal Negotiations</h6>
+          <h6 className="">Informal Negotiations</h6>
 
           <p>
             To expedite resolution and control the cost of any dispute,
@@ -817,7 +817,7 @@ export default function TermsPage() {
           </p>
           <br />
 
-          <h6 className="font-bold">Binding Arbitration</h6>
+          <h6 className="">Binding Arbitration</h6>
 
           <br />
           <p>
@@ -835,7 +835,7 @@ export default function TermsPage() {
           </p>
           <br />
 
-          <h6 className="font-bold">Restrictions</h6>
+          <h6 className="">Restrictions</h6>
 
           <br />
           <p>
@@ -865,7 +865,7 @@ export default function TermsPage() {
             jurisdiction of that court.
           </p>
 
-          <h3 className="mt-5 mb-1 text-[#F05A24] text-2xl font-medium">Corrections</h3>
+          <h3 className="mt-5 mb-1 text-[#F05A24] text-2xl ">Corrections</h3>
           <p>
             There may be information on the Services that contains typographical
             errors, inaccuracies, or omissions, including descriptions, pricing,
@@ -875,7 +875,7 @@ export default function TermsPage() {
             notice.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Disclaimer</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Disclaimer</h3>
           <p>
             THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU
             AGREE THAT YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO
@@ -912,7 +912,7 @@ export default function TermsPage() {
             APPROPRIATE.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Limitations of Liability
           </h3>
 
@@ -933,7 +933,7 @@ export default function TermsPage() {
             ADDITIONAL RIGHTS.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Indemnification</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Indemnification</h3>
 
           <p>
             You agree to defend, indemnify, and hold us harmless, including our
@@ -955,7 +955,7 @@ export default function TermsPage() {
             is subject to this indemnification upon becoming aware of it.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">User Data</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">User Data</h3>
 
           <p>
             We will maintain certain data that you transmit to the Services for
@@ -969,7 +969,7 @@ export default function TermsPage() {
             such loss or corruption of such data.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">
             Electronic Communications, Transactions, and Signatures
           </h3>
 
@@ -990,7 +990,7 @@ export default function TermsPage() {
             of credits by any means other than electronic means.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Miscellaneous</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Miscellaneous</h3>
 
           <p>
             These Legal Terms and any policies or operating rules posted by us
@@ -1015,7 +1015,7 @@ export default function TermsPage() {
             of signing by the parties hereto to execute these Legal Terms.
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Contact us</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Contact us</h3>
 
           <p>
             In order to resolve a complaint regarding the Services or to receive
