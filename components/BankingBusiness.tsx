@@ -32,7 +32,7 @@ export default function BankingBusiness() {
 
 
           <div className="w-full h-full  mb-20">
-            <Image width={500} height={500} src="/images/business-hero.png" className="w-full h-full lg:block hidden" alt="" />
+            <Image width={1000} height={1000} src="/images/business-hero.png" className="w-full h-full lg:block hidden" alt="" />
             <Image width={500} height={500} src="/images/business-hero-m.png" className="w-full h-full block lg:hidden" alt="" />
           </div>
         </div>

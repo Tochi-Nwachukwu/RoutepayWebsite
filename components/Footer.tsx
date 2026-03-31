@@ -53,18 +53,14 @@ const Footer = () => {
               <div className="flex flex-col gap-2 md:gap-4 w-full">
                 <p className="font-normal md:text-[18px]">Personal</p>
                 <div className="text-[14px] leading-6.5 md:leading-7.5">
-                  RoutePay seamlessly integrates your lifestyle and finances
-                  into one place, to simplify and enhance your financial
-                  journey.
+                  Elevate your financial journey without the friction. RoutePay integrates everything—spending, saving, and paying—into one intuitive experience designed around your day.
                 </div>
               </div>
               {/* Business */}
               <div className="flex flex-col gap-2 md:gap-4 w-full">
                 <p className="font-normal md:text-[18px]">Business</p>
                 <div className="text-[14px] leading-6.5 md:leading-7.5">
-                  RoutePay connects all sides of your business, offering you a
-                  smooth and straightforward experience, giving you more time to
-                  focus on your business while we handle the rest.
+                  A 360-degree payment engine for your brand. We handle the technical complexities of collections and payouts, giving you the freedom to focus entirely on your customers.
                 </div>
               </div>
               {/* Links */}
@@ -108,7 +104,7 @@ const Footer = () => {
             <div className="flex flex-col gap-14  md:gap-19">
               <div className=" flex gap-13 md:gap-0  flex-col md:flex-row justify-between mt-15">
                 <div className="">
-                  <Image width={500} height={500} src="/images/logo.svg" alt=""  className="w-[250] md:w-fit"/>
+                  <Image width={500} height={500} src="/images/logo.svg" alt="" className="w-[250] md:w-fit" />
                   <div className="flex justify-center md:justify-end">
                     <p className="font-normal text-[#555151] leading-7 md:text-[18px]">
                       Making More Possible.
@@ -128,38 +124,38 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col gap-8">
-              
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-14 text-[16px] font-normal">
-                {extraLinks.map((item, index) => {
-                  return (
-                    <Link
-                      href={item.href}
-                      key={index}
-                      className="hover:text-[#F05A24] text-[14px] leading-6.5 md:leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
-                    >
-                      {item.text}
-                    </Link>
-                  );
-                })}
-              </div>
-               <div>
-                <p className=" leading-6.25 text-[14px]">
-                  Banking services on this platform are provided by Routelink
-                  Microfinance Bank Limited (RC 787934), located at 270 Murtala
-                  Muhammed Way, Alagomeji – Yaba, Lagos. RoutePay Limited is
-                  licensed by the Central Bank of Nigeria. <br /> <br />
-                  Other services offered here are provided by their respective
-                  providers, all of whom are duly licensed or legally permitted
-                  to operate in partnership with Routelink. <br /> <br />
-                  Registered Office: 4th Floor, Africa Re House, Plot 1679
-                  Karimu Kotun St, Victoria Island, Lagos. <br /> <br />© 2026
-                  RoutePay. All rights reserved.
-                </p>
-              </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-14 text-[16px] font-normal">
+                  {extraLinks.map((item, index) => {
+                    return (
+                      <Link
+                        href={item.href}
+                        key={index}
+                        className="hover:text-[#F05A24] text-[14px] leading-6.5 md:leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
+                      >
+                        {item.text}
+                      </Link>
+                    );
+                  })}
+                </div>
+                <div>
+                  <p className=" leading-6.25 text-[14px]">
+                    Banking services on this platform are provided by Routelink
+                    Microfinance Bank Limited (RC 787934), located at 270 Murtala
+                    Muhammed Way, Alagomeji – Yaba, Lagos. RoutePay Limited is
+                    licensed by the Central Bank of Nigeria. <br /> <br />
+                    Other services offered here are provided by their respective
+                    providers, all of whom are duly licensed or legally permitted
+                    to operate in partnership with Routelink. <br /> <br />
+                    Registered Office: 4th Floor, Africa Re House, Plot 1679
+                    Karimu Kotun St, Victoria Island, Lagos. <br /> <br />© 2026
+                    RoutePay. All rights reserved.
+                  </p>
+                </div>
               </div>
 
-             
+
             </div>
           </section>
         </div>
