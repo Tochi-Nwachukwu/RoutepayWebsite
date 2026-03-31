@@ -18,7 +18,7 @@ const animate: AnimateItem[] = [
     text: "Enable secure and efficient tax collection through reliable digital payment channels, with real-time tracking that improves compliance. ",
   },
   {
-    src: "/images/govt-1.png",
+    src: "/images/icon-1.png",
     header: "Licensing",
     text: "Simplify payments for permits, registrations, and licenses with fast, user-friendly processing, instant confirmations.",
   },
@@ -166,13 +166,14 @@ export default function GovtBanking() {
               </div>
             </div>
           </div>
-          <div className="lg:mt-110  w-full hidden lg:flex 2xl:justify-center">
+          <div className="lg:mt-180 xl:mt-150  w-full hidden lg:flex h-[350]
+              items-center   md:h-[850]  lg:h-full lg:w-full  bg-green-200  justify-center">
             <Image
               width={500}
               height={500}
               src={animate[activeIndex].src}
               alt="government banking"
-              className="transition-all w-full h-full duration-500"
+              className="transition-all w-full h-full duration-500  w-full lg:w-[80%]  h-fit duration-500"
             />
           </div>
         </div>

@@ -12,22 +12,22 @@ interface AnimateItem {
 
 const animate: AnimateItem[] = [
   {
-    src: "/images/stock-1.png",
+    src: "/images/stock-01.png",
     header: "Access Fast Micro-Loans",
     text: "Get flexible loans tailored to your personal needs. Enjoy rapid approvals and easy repayment options.",
   },
   {
-    src: "/images/sample-2.png",
+    src: "/images/stock-2.png",
     header: "Transfer Money at Blazing Speed",
     text: "Send money effortlessly to any account across every bank in Nigeria.",
   },
   {
-    src: "/images/govt-1.png",
+    src: "/images/stock-03.png",
     header: "Utility Payments Made Easy",
     text: "Pay for electricity, internet, TV subscriptions, and more in just a few taps.",
   },
   {
-    src: "/images/sample-3.png",
+    src: "/images/stock-4.png",
     header: "Zero Hidden Charges",
     text: "No hidden fees, no surprises. We maintain total transparency so you always know where your money goes.",
   },
@@ -88,7 +88,8 @@ export default function PersonalBanking() {
           </div>
 
           <div
-            className="mt-5 md:mt-20 lg:mt-55 h-[400]   md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] flex 2xl:justify-center"
+            className="mt-5 md:mt-20 lg:mt-120 xl:mt-100 h-[350]
+              items-center   md:h-[850]  lg:h-full lg:w-[58%] xl:w-[50%]  flex justify-center"
             onTouchStart={(e) => {
               touchStartX.current = e.changedTouches[0].clientX;
             }}
@@ -98,17 +99,17 @@ export default function PersonalBanking() {
             }}
           >
             <Image
-              width={40000}
-              height={40000}
+              width={400}
+              height={400}
               src={animate[activeIndex].src}
               alt="personal banking"
-              className="transition-all w-full h-full duration-500"
+              className="transition-all w-full lg:w-[80%]  h-fit duration-500"
             />
           </div>
 
           {/* Header Text */}
           <div className=" flex flex-row lg:flex-col gap-8 md:gap-30   md:mt-20 w-fit  ml-auto">
-            <div className="hidden lg:flex flex-col gap-2 md:gap-4 w-100 ml-auto ">
+            <div className="hidden lg:flex flex-col gap-2 md:gap-4  ml-auto ">
               <h3 className="md:text-[18px] text-[#2B74BD] leading-5.75 ">
                 PERSONAL BANKING
               </h3>
@@ -118,7 +119,7 @@ export default function PersonalBanking() {
             </div>
 
             {/* Carousel Texts */}
-            <div className="flex flex-col lg:flex-row lg:w-100 gap-4  ml-auto lg:gap-7">
+            <div className="flex flex-col lg:flex-row  gap-4  ml-auto lg:gap-7">
               <div className="flex lg:hidden flex-row justify-center items-center gap-2 mt-8">
                 {animate.map((_, index) => (
                   <button
