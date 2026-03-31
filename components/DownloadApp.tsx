@@ -19,8 +19,12 @@ export default function DownloadApp() {
                 <p className="text-zinc-600">Grab the app and explore all the features <br className="hidden lg:block" /> today.</p>
               </div>
               <div className="flex gap-14">
-                <Image width={500} height={500} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
-                <Image width={500} height={500} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
+                <a href="https://apps.apple.com/ng/app/RoutePay-fintech/id6502836208">
+                  <Image width={500} height={500} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.routepay&hl=en">
+                  <Image width={500} height={500} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
+                </a>
               </div>
 
               {/* Links */}
