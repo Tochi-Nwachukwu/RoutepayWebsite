@@ -13,46 +13,54 @@ import Image from "next/image";
 
 const cards = [
   {
-    header: "What is RoutePay?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "How do I start collecting payments for my business?",
+    text: "Getting started is seamless. Simply register on our Merchant Portal with your business details and CAC documents. Once verified, you can immediately begin generating payment links or integrating our API to accept payments from customers worldwide.",
   },
   {
-    header: "What payment options are available?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "What business tools does RoutePay offer?",
+    text: "We provide a full suite of commerce tools, including secure Payment Links for social media sales, a robust API for custom web integrations, POS terminals for physical stores, and a Business Intelligence (BI) portal for real-time analytics and reporting.",
   },
   {
-    header: "Is RoutePay a bank?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "When will I receive my funds (Settlement)?",
+    text: "We understand that cash flow is the lifeblood of your business. RoutePay typically operates on a T+1 settlement cycle, meaning your previous day’s transactions are processed and credited to your settled account by the next business day.",
   },
   {
-    header: "Why do you need my BVN?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "What documents are required to open a Business Account?",
+    text: "To comply with CBN regulations, you’ll need your Corporate Affairs Commission (CAC) registration documents, your Business Tax Identification Number (TIN), a valid government-issued ID for all directors, and proof of your business address.",
   },
   {
-    header: "How do I create an account?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "Can I manage multiple team members on my dashboard?",
+    text: "Yes. Our Merchant Portal includes granular user access controls. You can assign specific roles to your team—such as 'Auditor' or 'Manager'—allowing them to view reports or handle refunds without giving them access to sensitive financial settings.",
   },
   {
-    header: "How do I contact customer support?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "How secure are large-volume business transactions?",
+    text: "RoutePay is built on bank-grade security infrastructure. We use AES encryption and are fully compliant with the Nigeria Data Protection Act (NDPA). Our PSSP and VAS licenses from the CBN and NCC ensure that your business and customer data are always protected.",
   },
-];
+  {
+    header: "Are there any hidden merchant fees or monthly charges?",
+    text: "We believe in transparent pricing. There are no setup fees or monthly maintenance charges. You only pay a small, industry-standard percentage per successful transaction, so you only pay when you actually get paid.",
+  },
+  {
+    header: "Does RoutePay support bulk payouts and payroll?",
+    text: "Absolutely. Beyond collecting money, our dashboard allows you to make bulk transfers to vendors, partners, or employees instantly. You can upload a single file and handle hundreds of payouts with a single click.",
+  }
+]
 
 const animate = [
   {
     vid: animationData1,
-    header: "Fast, Seamless Payments",
-    text: "Send or receive money in seconds. We ensure your payments are processed immediately.",
+    header: "Create Your Merchant Profile",
+    text: "Sign up on our secure dashboard and provide your CAC registration details and business credentials.",
   },
   {
     vid: animationData2,
-    header: "Enterprise Grade Security",
-    text: "Your transactions and data are fully protected. With top-tier security protocols.",
+    header: "Secure Compliance Verification",
+    text: "Our team performs a swift review of your documents to ensure your account meets all regulatory standards.",
   },
   {
     vid: animationData3,
-    header: "Designed for You",
-    text: "From personal payments to business and government collections, RoutePay adapts to your needs.",
+    header: "Activate Your Payment Channels",
+    text: "Once verified, you can go live immediately by generating payment links or integrating our robust APIs.",
   },
 ];
 
@@ -83,15 +91,14 @@ export default function BusinessPage() {
             {/* Header Text */}
             <div className=" flex flex-col gap-4  w-full ">
               <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
-                From Startups to <br className="hidden lg:block" />
-                Big Players
+                Payment Collections<br className="hidden lg:block" />
+                Simplified
               </h1>
             </div>
             {/* Header button */}
             <div className=" flex flex-col gap-4 md:gap-8 justify-center  lg:w-[50%]  ">
               <h3 className="md:text-[20px] leading-6.25 text-black">
-                From small ideas to big operations, everything is designed to
-                scale with you as your business levels up.
+                Get paid faster with secure, scalable collection tools designed for the modern Nigerian business.
               </h3>
               <button className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#000000] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3">
                 {" "}
@@ -118,7 +125,7 @@ export default function BusinessPage() {
           title={"STREAMLINE & INTEGRATE"}
           header={
             <>
-              Unify your operations so everything <br className="hidden lg:block"/> works smoothly,
+              Unify your operations so everything <br className="hidden lg:block" /> works smoothly,
               efficiently, and in sync.
             </>
           }
@@ -128,8 +135,7 @@ export default function BusinessPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              Get started in just 3 simple steps <br className="hidden lg:block" /> and step straight into
-              business.
+              Set up in minutes.<br className="hidden lg:block" /> Start selling immediately.
             </>
           }
         />
