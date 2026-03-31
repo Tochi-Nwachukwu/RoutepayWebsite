@@ -27,7 +27,7 @@ const animate: AnimateItem[] = [
     text: "Pay for electricity, internet, TV subscriptions, and more in just a few taps.",
   },
   {
-    src: "/images/bank-1.png",
+    src: "/images/sample-3.png",
     header: "Zero Hidden Charges",
     text: "No hidden fees, no surprises. We maintain total transparency so you always know where your money goes.",
   },
