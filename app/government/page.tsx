@@ -93,16 +93,16 @@ export default function GovernmentPage() {
             {/* Header Text */}
             <div className=" flex flex-col gap-2 md:gap-4  w-full ">
               <h1 className="text-[40px] md:text-[70px] md:leading-22 text-black ">
-                Join a League of Builders And Visionaries
+                Institutional Payment Management
               </h1>
-              <p className="md:text-[20px] text-[#3B3939] leading-6.25">Team up with bold thinkers, makers, and curious minds who turn ideas into real impact.</p>
+              <p className="md:text-[20px] text-[#3B3939] leading-6.25">A unified platform for schools, healthcare agencies, and public institutions. Securely manage fees and disbursements with comprehensive transaction histories and instant reporting.</p>
             </div>
             {/* Header button */}
           </div>
 
           <div className="w-full h-full mb-20">
             <Image width={500} height={500}
-              src="/images/govt-hero.jpg"
+              src="/images/govt-hero2.jpg"
               className="w-full h-full hidden md:block rounded-2xl"
               alt="Government Hero"
             />
@@ -122,15 +122,15 @@ export default function GovernmentPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              3 simple steps and <br className="hidden md:block"/> you’re in business
+              3 simple steps and <br className="hidden md:block" /> you’re in business
             </>
           }
         />
-        <PersonalFeat 
-          cards={cardFeat} 
-          header={<>Digital Infrastructure for Government <br className="hidden md:block"/> Payments</>}
+        <PersonalFeat
+          cards={cardFeat}
+          header={<>Digital Infrastructure for Government <br className="hidden md:block" /> Payments</>}
         />
-        
+
         <FAQ cards={cards} />
         <WebApp />
       </div>
