@@ -13,8 +13,8 @@ interface AnimateItem {
 const animate: AnimateItem[] = [
   {
     src: "/images/bank-1.png",
-    header: "Focus on What Matters",
-    text: "We take care of your payments so you don’t have to worry freeing up time for the things you love. ",
+    header: "Access Quick Micro Loans",
+    text: "Access quick, flexible loans to meet your personal needs. Quick approval and easy repayment options. ",
   },
   {
     src: "/images/govt-1.png",
@@ -83,7 +83,7 @@ export default function PersonalBanking() {
               PERSONAL BANKING
             </h3>
             <h3 className="text-[30px] md:text-[50px] md:leading-15.75 text-black">
-              RoutePay For You
+              RoutePay For Everyone
             </h3>
           </div>
 
@@ -111,7 +111,7 @@ export default function PersonalBanking() {
                 PERSONAL BANKING
               </h3>
               <h3 className="text-[30px] md:text-[50px] leading-15.75 text-black">
-                RoutePay For You
+                RoutePay For Everyone
               </h3>
             </div>
 

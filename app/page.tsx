@@ -55,8 +55,8 @@ const animate = [
   },
   {
     vid: animationData3,
-    header: "Designed for You",
-    text: "From personal payments to business and government collections, RoutePay adapts to your needs.",
+    header: "Built for  Everyone",
+    text: "Routepay delivers a robust payment ecosystem built for personal use, business growth, and public sector efficiency.",
   },
 ];
 

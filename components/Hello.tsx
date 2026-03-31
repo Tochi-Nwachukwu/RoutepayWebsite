@@ -51,7 +51,7 @@ export default function Hello() {
             <div>
               <h3 className="lg:absolute text-[25px] md:text-[40px] lg:text-[60px] xl:text-[60px] lg:leading-19 lg:right-0 xl:right-35 2xl:right-80 top-25 text-black">
                 {" "}
-                Say Hello! <br className="hidden lg:block" /> to convenience
+                Move Money <br className="hidden lg:block" /> With Satisfaction
               </h3>
             </div>
             <div className="  w-full h-full">
