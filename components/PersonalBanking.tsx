@@ -11,25 +11,25 @@ interface AnimateItem {
 }
 
 const animate: AnimateItem[] = [
-  {
+{
     src: "/images/bank-1.png",
-    header: "Access Quick Micro Loans",
-    text: "Access quick, flexible loans to meet your personal needs. Quick approval and easy repayment options. ",
+    header: "Access Fast Micro-Loans",
+    text: "Get flexible loans tailored to your personal needs. Enjoy rapid approvals and easy repayment options.",
   },
   {
     src: "/images/govt-1.png",
-    header: "Plan Ahead with Ease",
-    text: "Schedule your payments in advance and never miss a due date again. Reliable, simple, and stress-free.",
+    header: "Transfer Money at Blazing Speed",
+    text: "Send money effortlessly to any account across every bank in Nigeria.",
   },
   {
     src: "/images/bank-1.png",
-    header: "Pay Your Way",
-    text: "Send money effortlessly using payment links or your unique RoutePay username perfect for friends, family, or bills.",
+    header: "Utility Payments Made Easy",
+    text: "Pay for electricity, internet, TV subscriptions, and more in just a few taps.",
   },
   {
     src: "/images/bank-1.png",
-    header: "Clear and Honest",
-    text: "No hidden fees, no surprises. We keep everything transparent, so you always know exactly what’s happening.",
+    header: "Zero Hidden Charges",
+    text: "No hidden fees, no surprises. We maintain total transparency so you always know where your money goes.",
   },
 ];
 
