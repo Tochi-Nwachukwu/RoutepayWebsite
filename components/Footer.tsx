@@ -14,10 +14,11 @@ interface SocialLink {
 
 const contact = [
   { text: "Start a Chat" },
-  { text: "hello@RoutePay.com" },
-  { text: "fraud@RoutePay.com" },
+  { text: "+234 913 444 6536" },
+  { text: "sales@routepay.com" },
+  { text: "customersupport@routepay.com" },
   {
-    text: "CashCraft Building, 270 Murtala Muhammed Way, Alagomeji - Yaba, Lagos, Nigeria.",
+    text: "Ground Floor, Africa Re House, Plot 1679 Karimu Kotun St, Victoria Island, Lagos",
   },
 ];
 
