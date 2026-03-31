@@ -123,7 +123,7 @@ export default function GovernmentPage() {
             <Image
               width={500}
               height={500}
-              src="/images/govt-hero-m.jpg"
+              src="/images/govt-hero2-m.png"
               className="w-full h-full block md:hidden rounded-2xl"
               alt="Government Hero"
             />

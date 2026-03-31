@@ -92,8 +92,8 @@ export default function BusinessPage() {
             <div className=" flex flex-col gap-4  w-full ">
               <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
                 Payment Collections
-                <br className="hidden lg:block" />
-                Simplified
+                <br className="" />
+                 Simplified
               </h1>
             </div>
             {/* Header button */}

@@ -98,7 +98,7 @@ export default function GovtBanking() {
               </div>
             </div>
             <div
-              className="lg:mt-110  lg:mt-80 h-[400]  md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] md:h-full md:w-full lg:hidden flex 2xl:justify-center"
+              className="h-[340] bg-green-300 lg:hidden flex items-center justify-center"
               onTouchStart={(e) => {
                 touchStartX.current = e.changedTouches[0].clientX;
               }}
@@ -112,7 +112,7 @@ export default function GovtBanking() {
                 height={500}
                 src={animate[activeIndex].src}
                 alt="government banking"
-                className="transition-all w-full h-full duration-500"
+                className="transition-all w-full h-fit duration-500"
               />
             </div>
 
@@ -173,7 +173,7 @@ export default function GovtBanking() {
               height={500}
               src={animate[activeIndex].src}
               alt="government banking"
-              className="transition-all w-full h-full duration-500  w-full lg:w-[80%]  h-fit duration-500"
+              className="transition-all w-full   lg:w-[80%]  h-fit duration-500"
             />
           </div>
         </div>
