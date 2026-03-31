@@ -68,15 +68,19 @@ export default function PersonalPage() {
         <div className="pt-0 flex flex-col justify-between md:mt-15  xl:mt-29.25 lg:flex-row gap-20 md:gap-30 lg:gap-6">
           <div className="w-full flex flex-col gap-4.5 ">
             <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
-              Your money, <br className="hidden lg:block"/>your rules
+              One app. <br className="hidden lg:block" /> All payments.
             </h1>
             <div className="flex flex-col gap-8 md:gap-12 lg:w-118.5">
               <p className="text-[#3B3939] md:text-[20px] leading-6.25">
-                While you’re sending, receiving, or managing transactions, the app provides a seamless, secure, and user-friendly experience for you.
+                Your all-in-one financial app for sending money, paying bills, and managing your finances effortlessly.
               </p>
               <div className="flex gap-14">
-                <Image width={100} height={100} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit"/>
-                <Image width={100} height={100} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
+                <a href="https://apps.apple.com/ng/app/routepay/id6752760967" target="_blank" rel="noopener noreferrer">
+                  <Image width={100} height={100} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.routepay.app" target="_blank" rel="noopener noreferrer">
+                  <Image width={100} height={100} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
+                </a>
               </div>
             </div>
           </div>
@@ -88,9 +92,9 @@ export default function PersonalPage() {
 
       {/* Sections */}
       <div className="mt-20 md:mt-35 flex flex-col gap-20 lg:gap-40 bg-white">
-        <PersonalFeat 
-          className="mt-15 lg:mt-30" 
-          cards={cardFeat} 
+        <PersonalFeat
+          className="mt-15 lg:mt-30"
+          cards={cardFeat}
           header={<>Make fast, easy payments with the <br className="hidden lg:block" /> RoutePay mobile app.</>}
         />
         <FAQ cards={cards} />
