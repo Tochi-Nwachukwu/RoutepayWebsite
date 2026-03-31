@@ -13,46 +13,54 @@ import Image from "next/image";
 
 const cards = [
   {
-    header: "What is RoutePay?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "Is RoutePay a licensed and regulated provider for government services?",
+    text: "Yes. RoutePay Fintech Limited is fully licensed and regulated by the Central Bank of Nigeria (CBN) as a Payment Solution Service Provider (PSSP). We are also certified by the Nigerian Communications Commission (NCC) for Value-Added Services (VAS), ensuring we meet the highest standards of public sector compliance.",
   },
   {
-    header: "What payment options are available?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "Can our institution integrate RoutePay with existing portals?",
+    text: "Absolutely. Whether it’s a University portal for student fees or an agency dashboard for license renewals, our robust APIs are designed for seamless integration with your existing infrastructure, allowing you to centralize all collections without replacing your current systems.",
   },
   {
-    header: "Is RoutePay a bank?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "How does RoutePay ensure transparency and prevent revenue leakage?",
+    text: "Our platform provides real-time transaction monitoring and automated reconciliation. By digitizing every touchpoint—from USSD to POS—we eliminate manual handling of funds, providing a clear, immutable audit trail for every kobo collected.",
   },
   {
-    header: "Why do you need my BVN?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "What payment channels are available for citizens and students?",
+    text: "We offer an omnichannel experience to ensure inclusivity. Users can pay via Debit/Credit cards, Bank Transfers, QR Codes, and USSD. We also provide POS terminals for physical collection points within government offices or university campuses.",
   },
   {
-    header: "How do I create an account?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "Does the platform support multi-level administrative access?",
+    text: "Yes. Our dashboard includes granular, role-based access controls. A University, for example, can give different access levels to the Bursary, individual Faculties, and the Audit department, ensuring that each team only sees the data relevant to their function.",
   },
   {
-    header: "How do I contact customer support?",
-    text: "RoutePay is a financial and lifestyle platform that offers our customers a convenient, seamless, and integrated experience. We are the go-to platform for all financial transactions, from sending and receiving money to paying bills and making everyday purchases (movie tickets, gifts, airline tickets, betting, and so on). Customers can easily manage their finances, enjoy exclusive offers and rewards, and improve their lifestyles with 9jaPay.",
+    header: "How is citizen and student data protected?",
+    text: "Security is our foundation. RoutePay is fully compliant with the Nigeria Data Protection Act (NDPA) and employs bank-grade AES encryption. We ensure that all sensitive personal and financial data is handled with the highest level of confidentiality and security.",
   },
+  {
+    header: "What is the settlement cycle for public funds?",
+    text: "We provide flexible settlement options tailored to institutional requirements. Typically, we operate on a T+1 cycle, but we can configure settlements to align with specific treasury or government account structures (such as TSA) as required by your mandate.",
+  },
+  {
+    header: "Is there dedicated support for public institutions?",
+    text: "Yes. Every public sector partner is assigned a dedicated Account Manager. In addition, our technical support team is available 24/7 to ensure that your collection services remain online and any disputes or issues are resolved with zero downtime.",
+  }
 ];
 
 const animate = [
   {
     vid: animationData1,
-    header: "Rapid Onboarding",
-    text: "Digitise your entire workflow in just a few hours through our seamless, guided onboarding process built for government systems.",
+    header: "Compliance-First Consultation",
+    text: "Consult with us to set up a payment collection system that adheres to the highest standards of financial security and public sector transparency.",
   },
   {
     vid: animationData2,
-    header: "Scalable Operations",
-    text: "Whether managing a single agency or multiple departments, the platform is designed to handle operations smoothly across all levels.",
+    header: "Centralized Revenue Management",
+    text: "Integrate a system capable of managing high-volume transactions across diverse public touchpoints with automated reconciliation and zero downtime.",
   },
   {
     vid: animationData3,
-    header: "Dedicated Support",
-    text: "Our system includes integrated support channels, ensuring your team is always connected to assistance whenever it’s needed.",
+    header: "Full-Spectrum Technical Support",
+    text: "Activate your portal with the assurance of a dedicated account manager and support channels designed to keep your public services running 24/7.",
   },
 ];
 
@@ -122,7 +130,7 @@ export default function GovernmentPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              3 simple steps and <br className="hidden md:block" /> you’re in business
+              Get Started <br className="hidden md:block" /> With Ease
             </>
           }
         />
