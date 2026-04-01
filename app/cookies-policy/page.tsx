@@ -8,11 +8,11 @@ export default function CookiesPolicyPage() {
           <p className=" bg-[#F05A24] text-white text-center mb-4 lg:mb-[30px] px-2 py-1 rounded-2xl">
             Cookies Policy
           </p>
-          <h1 className="text-[40px] text-center text-black font-semibold">Cookies Policy</h1>
+          <h1 className="text-[40px] text-center text-black ">Cookies Policy</h1>
         </div>
         <div className="">
-          <h3 className="text-[#F05A24] text-2xl font-medium"> Introduction</h3>
-          <p className="font-bold text-[#4D4A4A]">Last updated June 16, 2025</p>
+          <h3 className="text-[#F05A24] text-2xl "> Introduction</h3>
+          <p className=" text-[#4D4A4A]">Last updated June 16, 2025</p>
         </div>
         <div className="mt-[60px] pb-32 xl:pb-[315px] text-[#4D4A4A]">
           <p>
@@ -37,7 +37,7 @@ export default function CookiesPolicyPage() {
             <br />
           </p>
 
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">
+          <h3 className="text-[#F05A24] text-2xl my-8 ">
             1. WHAT ARE COOKIES?{" "}
           </h3>
           <p>
@@ -48,56 +48,56 @@ export default function CookiesPolicyPage() {
           </p>
           <br />
 
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">2. TYPES OF COOKIES </h3>
-          <h6 className="font-bold">Strictly Necessary</h6>
+          <h3 className="text-[#F05A24] text-2xl my-8 ">2. TYPES OF COOKIES </h3>
+          <h6 className="">Strictly Necessary</h6>
           <br />
           <ul className="list-disc list-inside">
             <li>
-              <span className="font-bold">Purpose: </span>Essential for website
+              <span className="">Purpose: </span>Essential for website
               functionality (e.g., login, shopping cart)
             </li>
             <li>
-              <span className="font-bold">Duration: </span>Session / Persistent
+              <span className="">Duration: </span>Session / Persistent
             </li>
           </ul>
           <br />
-          <h6 className="font-bold">Performance</h6>
+          <h6 className="">Performance</h6>
           <br />
           <ul className="list-disc list-inside">
             <li>
-              <span className="font-bold">Purpose: </span>Collect anonymous data
+              <span className="">Purpose: </span>Collect anonymous data
               on website usage (e.g., Google Analytics)
             </li>
             <li>
-              <span className="font-bold">Duration: </span> Persistent
+              <span className="">Duration: </span> Persistent
             </li>
           </ul>
           <br />
-          <h6 className="font-bold">Functional</h6>
+          <h6 className="">Functional</h6>
           <br />
           <ul className="list-disc list-inside">
             <li>
-              <span className="font-bold">Purpose: </span>Remember user
+              <span className="">Purpose: </span>Remember user
               preferences (e.g., language, font size)
             </li>
             <li>
-              <span className="font-bold">Duration: </span> Persistent
+              <span className="">Duration: </span> Persistent
             </li>
           </ul>
           <br />
-          <h6 className="font-bold">Targeting/Advertising</h6>
+          <h6 className="">Targeting/Advertising</h6>
           <br />
           <ul className="list-disc list-inside">
             <li>
-              <span className="font-bold">Purpose: </span>Deliver personalized
+              <span className="">Purpose: </span>Deliver personalized
               ads based on browsing behavior
             </li>
             <li>
-              <span className="font-bold">Duration: </span> Persistent
+              <span className="">Duration: </span> Persistent
             </li>
           </ul>
           <br />
-          <h6 className="font-bold">Other Tracking Technologies </h6>
+          <h6 className="">Other Tracking Technologies </h6>
           <br />
           <p>We may also use: </p>
           <br />
@@ -107,37 +107,37 @@ export default function CookiesPolicyPage() {
             <li>Pixels (used in digital marketing) </li>
           </ul>
           <br />
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">
+          <h3 className="text-[#F05A24] text-2xl my-8 ">
             3. HOW WE USE COOKIES
           </h3>
-          <h6 className="font-bold mb-4"> Essential Functions </h6>
+          <h6 className=" mb-4"> Essential Functions </h6>
           <ul className="list-disc list-inside">
             <li>Enable secure login sessions</li>
             <li>Remember items in your shopping cart </li>
             <li>Load-balance website traffic </li>
           </ul>
           <br />
-          <h6 className="font-bold mb-4"> Analytics & Performance</h6>
+          <h6 className=" mb-4"> Analytics & Performance</h6>
           <ul className="list-disc list-inside">
             <li>Monitor website traffic (Google Analytics)</li>
             <li>Identify popular content </li>
             <li>Identify popular content </li>
           </ul>
           <br />
-          <h6 className="font-bold mb-4"> Personalization</h6>
+          <h6 className=" mb-4"> Personalization</h6>
           <ul className="list-disc list-inside">
             <li>Remember language/region preferences</li>
             <li>Customize user interface settings </li>
           </ul>
           <br />
-          <h6 className="font-bold mb-4"> Marketing & Advertising </h6>
+          <h6 className=" mb-4"> Marketing & Advertising </h6>
           <ul className="list-disc list-inside">
             <li>Display relevant ads (Facebook Pixel, Google Ads) </li>
             <li>Measure ad campaign effectiveness </li>
             <li>Retarget website visitors </li>
           </ul>
           <br />
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">
+          <h3 className="text-[#F05A24] text-2xl my-8 ">
             {" "}
             4. THIRD-PARTY COOKIES{" "}
           </h3>
@@ -177,10 +177,10 @@ export default function CookiesPolicyPage() {
           </ul>
           <br />
 
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">
+          <h3 className="text-[#F05A24] text-2xl my-8 ">
             5. MANAGING COOKIE PREFERENCES
           </h3>
-          <h6 className="font-bold mb-4">Browser Settings</h6>
+          <h6 className=" mb-4">Browser Settings</h6>
           <p>You can block or delete cookies via:</p>
           <ul className="list-disc list-inside">
             <li>Chrome: Settings &gt; Privacy & Security &gt; Cookies </li>
@@ -190,7 +190,7 @@ export default function CookiesPolicyPage() {
           <br />
           <p>Note: Disabling cookies may break website functionality. </p>
           <br />
-          <h6 className="font-bold mb-4">Consent Management</h6>
+          <h6 className=" mb-4">Consent Management</h6>
           <ul className="list-disc list-inside">
             <li>
               First-time visitors receive a cookie banner to accept/reject
@@ -202,7 +202,7 @@ export default function CookiesPolicyPage() {
             </li>
           </ul>
           <br />
-          <h6 className="font-bold mb-4"> Opt-Out Tools </h6>
+          <h6 className=" mb-4"> Opt-Out Tools </h6>
           <ul className="list-disc list-inside">
             <li>
               Advertising: {" "}
@@ -226,7 +226,7 @@ export default function CookiesPolicyPage() {
             </li>
           </ul>
           <br />
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">6. POLICY UPDATES </h3>
+          <h3 className="text-[#F05A24] text-2xl my-8 ">6. POLICY UPDATES </h3>
           <p>We may update this policy to reflect:</p>
           <br />
           <ul className="list-disc list-inside">
@@ -240,7 +240,7 @@ export default function CookiesPolicyPage() {
           </p>
           <br />
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Contact us</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Contact us</h3>
 
           <p>
             For cookie-related inquiries: <br />

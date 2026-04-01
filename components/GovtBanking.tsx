@@ -18,17 +18,17 @@ const animate: AnimateItem[] = [
     text: "Enable secure and efficient tax collection through reliable digital payment channels, with real-time tracking that improves compliance. ",
   },
   {
-    src: "/images/govt-1.png",
+    src: "/images/icon-1.png",
     header: "Licensing",
     text: "Simplify payments for permits, registrations, and licenses with fast, user-friendly processing, instant confirmations.",
   },
   {
-    src: "/images/sample-2.png",
+    src: "/images/icon-03.png",
     header: "Regulatory Fees",
     text: "Streamline the collection of regulatory and administrative fees with automated reconciliation, transparent reporting.",
   },
   {
-    src: "/images/govt-1.png",
+    src: "/images/icon-04.png",
     header: "Institutional Payments",
     text: "Manage payments for public institutions such as schools and agencies with audit-ready records, secure transaction history.",
   },
@@ -98,7 +98,7 @@ export default function GovtBanking() {
               </div>
             </div>
             <div
-              className="lg:mt-110  lg:mt-80 h-[400]  md:h-[850] lg:h-[750] xl:h-[810] lg:w-[58%] xl:w-[60%] md:h-full md:w-full lg:hidden flex 2xl:justify-center"
+              className="h-[340] md:h-full lg:h-[700] lg:hidden flex items-center justify-center"
               onTouchStart={(e) => {
                 touchStartX.current = e.changedTouches[0].clientX;
               }}
@@ -112,7 +112,7 @@ export default function GovtBanking() {
                 height={500}
                 src={animate[activeIndex].src}
                 alt="government banking"
-                className="transition-all w-full h-full duration-500"
+                className="transition-all w-full md:w-[505] h-fit duration-500"
               />
             </div>
 
@@ -166,13 +166,14 @@ export default function GovtBanking() {
               </div>
             </div>
           </div>
-          <div className="lg:mt-110  w-full hidden lg:flex 2xl:justify-center">
+          <div className="lg:mt-190 xl:mt-160   w-full hidden lg:flex h-[350]
+              items-center   md:h-[850]  lg:h-full lg:w-full   justify-center">
             <Image
               width={500}
               height={500}
               src={animate[activeIndex].src}
               alt="government banking"
-              className="transition-all w-full h-full duration-500"
+              className="transition-all w-full   lg:w-[80%]  h-fit duration-500"
             />
           </div>
         </div>

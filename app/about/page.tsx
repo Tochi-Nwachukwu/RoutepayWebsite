@@ -112,7 +112,7 @@ export default function AboutPage() {
                 ABOUT US
               </h3>
               <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black ">
-                Powering a new generation of <br className="hidden md:block" />{" "}
+                Powering a new generation of <br className="hidden lg:block" />{" "}
                 African businesses
               </h1>
               <p className="md:text-[20px] leading-6.25 text-[#555151]">

@@ -43,8 +43,8 @@ const cards = [
   {
     header: "Does RoutePay support bulk payouts and payroll?",
     text: "Absolutely. Beyond collecting money, our dashboard allows you to make bulk transfers to vendors, partners, or employees instantly. You can upload a single file and handle hundreds of payouts with a single click.",
-  }
-]
+  },
+];
 
 const animate = [
   {
@@ -91,25 +91,34 @@ export default function BusinessPage() {
             {/* Header Text */}
             <div className=" flex flex-col gap-4  w-full ">
               <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
-                Payment Collections<br className="hidden lg:block" />
-                Simplified
+                Payment Collections
+                <br className="" />
+                 Simplified
               </h1>
             </div>
             {/* Header button */}
             <div className=" flex flex-col gap-4 md:gap-8 justify-center  lg:w-[50%]  ">
               <h3 className="md:text-[20px] leading-6.25 text-black">
-                Get paid faster with secure, scalable collection tools designed for the modern Nigerian business.
+                Get paid faster with secure, scalable collection tools designed
+                for the modern Nigerian business.
               </h3>
               <button className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#000000] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3">
                 {" "}
                 <p>Sign up your business</p>{" "}
-                <Image width={15} height={15} src="/images/button-right.svg" alt="" />{" "}
+                <Image
+                  width={15}
+                  height={15}
+                  src="/images/button-right.svg"
+                  alt=""
+                />{" "}
               </button>
             </div>
           </div>
 
           <div className="w-full h-full md:mb-20">
-            <Image width={900} height={900}
+            <Image
+              width={900}
+              height={900}
               src="/images/business-hero1.png"
               className="w-full h-full"
               alt="Business Hero"
@@ -125,8 +134,9 @@ export default function BusinessPage() {
           title={"STREAMLINE & INTEGRATE"}
           header={
             <>
-              Unify your operations so everything <br className="hidden lg:block" /> works smoothly,
-              efficiently, and in sync.
+              Unify your operations so everything{" "}
+              <br className="hidden lg:block" /> works smoothly, efficiently,
+              and in sync.
             </>
           }
         />
@@ -135,12 +145,17 @@ export default function BusinessPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              Set up in minutes.<br className="hidden lg:block" /> Start selling immediately.
+              Set up in minutes.
+              <br className="hidden lg:block" /> Start selling immediately.
             </>
           }
         />
         <FAQ cards={cards} />
-        <WebApp />
+        <WebApp
+          header="TRY ROUTEPAY FOR YOUR BUSINESS"
+          text="Ready for a business engine that just... works?"
+          cta="Get Started"
+        />
       </div>
     </div>
   );

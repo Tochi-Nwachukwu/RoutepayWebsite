@@ -8,11 +8,11 @@ export default function TermsAndConditionsPage() {
           <p className=" bg-[#F05A24] text-white text-center mb-4 lg:mb-[30px] px-2 py-1 rounded-2xl">
             Privacy Policy
           </p>
-          <h1 className="text-[40px] text-center text-black font-semibold">Privacy Policy</h1>
+          <h1 className="text-[40px] text-center text-black font">Privacy Policy</h1>
         </div>
         <div className="">
-          <h3 className="text-[#F05A24] text-2xl font-medium">Privacy Policy</h3>
-          <p className="font-bold text-[#4D4A4A]">
+          <h3 className="text-[#F05A24] text-2xl ">Privacy Policy</h3>
+          <p className=" text-[#4D4A4A]">
             Last updated March 26, 2025
           </p>
         </div>
@@ -24,7 +24,7 @@ export default function TermsAndConditionsPage() {
             we have developed this Privacy Policy to explain our privacy
             practices, particularly regarding how we collect, process, retain,
             share and protect your Personal Data when you visit our website,
-            premises or use our digital platforms (collectively, "the Platform"
+            premises or use our digital platforms (collectively, &quot;the Platform&quot;
             or &quot;Services&quot;) as well as your rights as a data subject.
             <br />
             <br />
@@ -39,7 +39,7 @@ export default function TermsAndConditionsPage() {
             <br />
           </p>
 
-          <h3 className="text-[#F05A24] text-2xl my-8 font-medium">
+          <h3 className="text-[#F05A24] text-2xl my-8 ">
             1. LAWFUL BASIS FOR PROCESSING YOUR DATA
           </h3>
 
@@ -56,7 +56,7 @@ export default function TermsAndConditionsPage() {
             party.
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">2. CONSENT</h3>
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">2. CONSENT</h3>
           <p>
             You give your consent to our processing of your personal data when
             you access our platforms or, when you accept our cookies policy; or
@@ -64,7 +64,7 @@ export default function TermsAndConditionsPage() {
             digital platforms or visit any of our offices and submit your data
             for official or non-official purposes.
           </p>
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             3. WHAT PERSONAL DATA DO WE COLLECT?
           </h3>
           <p>
@@ -73,7 +73,7 @@ export default function TermsAndConditionsPage() {
             following:
           </p>
 
-          <h6 className="font-bold my-2">• Sign-up information: </h6>
+          <h6 className=" my-2">• Sign-up information: </h6>
 
           <p>
             When you register to use the services offered on our digital
@@ -90,7 +90,7 @@ export default function TermsAndConditionsPage() {
             additional, necessary personal details as you use our services.
           </p>
 
-          <h6 className="font-bold my-2">• Transaction information: </h6>
+          <h6 className=" my-2">• Transaction information: </h6>
           <p>
             When you use our digital platform to send and receive money, make
             purchases from merchants, pay bills, deposit & withdraw cash, we
@@ -101,7 +101,7 @@ export default function TermsAndConditionsPage() {
             or services, merchant information – including information about your
             device and geolocation.
           </p>
-          <h6 className="font-bold my-2">• Participant Personal Data: </h6>
+          <h6 className=" my-2">• Participant Personal Data: </h6>
           <p>
             When you use our services, we may collect Personal Data about the
             other participants associated with the transaction, including your
@@ -111,7 +111,7 @@ export default function TermsAndConditionsPage() {
             about the participant who is receiving money from (or sending money
             to) you, when you send or receive money through the Services.
           </p>
-          <h6 className="font-bold my-2">• Image Information: </h6>
+          <h6 className=" my-2">• Image Information: </h6>
           <p>
             We may collect your image (upload, storage, and use) information to
             support account opening, such as uploading your portrait. We may
@@ -121,7 +121,7 @@ export default function TermsAndConditionsPage() {
             regulatory KYC purposes. When you visit any of our offices as well,
             our CCTV cameras may also process your images.
           </p>
-          <h6 className="font-bold my-2">• Information from other sources: </h6>
+          <h6 className=" my-2">• Information from other sources: </h6>
           <p>
             We may collect information from other sources, such as our social
             media platforms when you reach out to us to lodge a complaint about
@@ -130,7 +130,7 @@ export default function TermsAndConditionsPage() {
             collect information from NIBSS, credit bureaus, NIMC, or other
             third-party KYC verification service providers.
           </p>
-          <h6 className="font-bold my-2">
+          <h6 className=" my-2">
             • Other information we collect related to your use of our website or
             Services:{" "}
           </h6>
@@ -145,7 +145,7 @@ export default function TermsAndConditionsPage() {
             application through the relevant model/system to provide customized
             services.
           </p>
-          <h6 className="font-bold my-2">
+          <h6 className=" my-2">
             • When you apply for a job with us:{" "}
           </h6>
           <p>
@@ -161,7 +161,7 @@ export default function TermsAndConditionsPage() {
             Without your Personal Data, we may not be able to process your
             application for positions with us.
           </p>
-          <h6 className="font-bold my-2">
+          <h6 className=" my-2">
             • We do not collect the information of minors:
           </h6>
           <p>
@@ -169,7 +169,7 @@ export default function TermsAndConditionsPage() {
             service offered on our digital platform.
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             4. HOW DO WE RETAIN PERSONAL DATA?
           </h3>
           <p>
@@ -182,7 +182,7 @@ export default function TermsAndConditionsPage() {
             fulfil the purposes we collect it for, including the purposes of
             satisfying any legal, accounting, or reporting obligations.
           </p>
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             5. HOW DO WE PROCESS PERSONAL DATA?
           </h3>
           <p>
@@ -240,7 +240,7 @@ export default function TermsAndConditionsPage() {
             charge.
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             6. SHARING YOUR PERSONAL DATA
           </h3>
           <p>
@@ -299,7 +299,7 @@ export default function TermsAndConditionsPage() {
               </li>
               <li>
                 Where permitted or required by law. We may share information
-                about you with other parties for RoutePay's business purposes or
+                about you with other parties for RoutePay&apos;s business purposes or
                 as permitted or required by law, including:
               </li>
               <li>
@@ -326,7 +326,7 @@ export default function TermsAndConditionsPage() {
             <li>To protect our property, services, and legal rights;</li>
             <li>
               As reasonably and legally permitted, to facilitate a purchase or
-              sale of all or part of RoutePay's business, or in the instance of
+              sale of all or part of RoutePay&apos;s business, or in the instance of
               some merger and acquisition;
             </li>
             <li>
@@ -339,7 +339,7 @@ export default function TermsAndConditionsPage() {
             </li>
           </ul>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             7. HOW WE USE COOKIES
           </h3>
           <p>
@@ -360,7 +360,7 @@ export default function TermsAndConditionsPage() {
             pages
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             8. WHAT ARE YOUR RIGHTS?
           </h3>
           <ol className="pl-4">
@@ -445,7 +445,7 @@ export default function TermsAndConditionsPage() {
             </li>
           </ol>
 
-          <h6 className="font-bold mt-4">Object to processing:</h6>
+          <h6 className=" mt-4">Object to processing:</h6>
           <p>
             You have the right to object at any time to the processing of your
             Personal Data provided we do not have any other lawful basis to
@@ -458,7 +458,7 @@ export default function TermsAndConditionsPage() {
             purposes. In such cases, we will stop processing your Personal Data
             when we receive your objection.
           </p>
-          <h6 className="font-bold mt-4">Requests to Restrict: </h6>
+          <h6 className=" mt-4">Requests to Restrict: </h6>
           <p className="my-2">
             You have the right to ask us to restrict the processing of your
             Personal Data if: You contest the accuracy of your Personal Data and
@@ -480,7 +480,7 @@ export default function TermsAndConditionsPage() {
             relevant Nigerian laws To comply with pertinent legal and regulatory
             directives.
           </p>
-          <h6 className="font-bold mt-4">Requests for Portability: </h6>
+          <h6 className=" mt-4">Requests for Portability: </h6>
           <p className="my-2">
             Subject to the directives of the Nigeria Data Protection Commission
             and technical possibilities, you can exercise you right to
@@ -490,7 +490,7 @@ export default function TermsAndConditionsPage() {
             restrict the transfer to only the portion relevant to you, unless
             you establish that you have also gotten their consent.
           </p>
-          <h6 className="font-bold mt-4">
+          <h6 className=" mt-4">
             {" "}
             Prohibition to Automated Decision-Making: 3.{" "}
           </h6>
@@ -505,7 +505,7 @@ export default function TermsAndConditionsPage() {
             regulations, or <br />
             Based on your explicit consent.
           </p>
-          <h6 className="font-bold mt-4"> Right to be informed:</h6>
+          <h6 className=" mt-4"> Right to be informed:</h6>
           <p className="my-2">
             Right to be informed: The NDPA requires us, as controllers, to
             provide certain information to you before processing your personal
@@ -514,7 +514,7 @@ export default function TermsAndConditionsPage() {
             provided in our Terms of use as well as other notices in our
             premises when you visit.
           </p>
-          <h6 className="font-bold mt-4">Withdrawal of consent: </h6>
+          <h6 className=" mt-4">Withdrawal of consent: </h6>
           <p className="my-2">
             Withdrawal of consent: Your decision to give consent to the
             processing of your data also comes with a corresponding right to
@@ -524,7 +524,7 @@ export default function TermsAndConditionsPage() {
             other lawful bases exist for us to continue the processing
             activities.
           </p>
-          <h6 className="font-bold mt-4">Right to lodge complaint: </h6>
+          <h6 className=" mt-4">Right to lodge complaint: </h6>
           <p className="my-2">
             Right to lodge complaint: In the unlikely event of an infringement
             on any of your rights, you are at liberty to lodge complaint to the
@@ -532,11 +532,11 @@ export default function TermsAndConditionsPage() {
             agency for redress.
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             9. HOW DO WE PROTECT YOUR PERSONAL DATA?
           </h3>
 
-          <h6 className="font-bold mt-4">Security </h6>
+          <h6 className=" mt-4">Security </h6>
           <p className="my-2">
             We maintain technical, physical, and administrative security
             measures designed to provide reasonable protection for your Personal
@@ -546,7 +546,7 @@ export default function TermsAndConditionsPage() {
             for public safety and quality control, as well as information access
             authorization controls.
           </p>
-          <h6 className="font-bold mt-4">Confidentiality </h6>
+          <h6 className=" mt-4">Confidentiality </h6>
           <p className="my-2">
             Your Personal Data is regarded as confidential and will not be
             divulged to any third party, except under legal and/or regulatory
@@ -570,7 +570,7 @@ export default function TermsAndConditionsPage() {
             risks to your rights and freedom.
           </p>
 
-          <h6 className="font-bold mt-4"> Organisational measures </h6>
+          <h6 className=" mt-4"> Organisational measures </h6>
           <p className="my-2">
             We have drafted policies and other documents that ensure the safety,
             integrity and confidentiality of your personal data. We also
@@ -578,7 +578,7 @@ export default function TermsAndConditionsPage() {
             contemporary measures for data security.
           </p>
 
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             10. REMEDIES FOR VIOLATION AND TIME-FRAME FOR REMEDY
           </h3>
 
@@ -592,7 +592,7 @@ export default function TermsAndConditionsPage() {
             restriction on further processing and other applicable remedies as
             the relevant laws prescribe.
           </p>
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             11. CHANGES TO OUR PRIVACY POLICY
           </h3>
 
@@ -605,7 +605,7 @@ export default function TermsAndConditionsPage() {
             Accounts etc. If the revised version includes a substantial change,
             we may notify you of the change using emails or other means.
           </p>
-          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl font-medium">
+          <h3 className="mt-4 mb-2.5 text-[#F05A24] text-2xl ">
             12. CONTACT US
           </h3>
 
@@ -615,7 +615,7 @@ export default function TermsAndConditionsPage() {
             contact us via the details below:
           </p>
 
-          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl font-medium">Contact us</h3>
+          <h3 className="mt-5 mb-4 text-[#F05A24] text-2xl ">Contact us</h3>
 
           <p>
             In order to resolve a complaint regarding the Services or to receive
