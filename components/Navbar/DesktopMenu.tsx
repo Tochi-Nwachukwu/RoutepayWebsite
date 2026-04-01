@@ -129,7 +129,7 @@ const DesktopMenu = ({ pathname }: DesktopMenuProps) => {
 
         <div className="">
           <Btn
-            text="Contact Us"
+            text="Sign Up"
             link="https://portal.routepay.com/register?source=MerchantPortal"
             color={true}
           />
