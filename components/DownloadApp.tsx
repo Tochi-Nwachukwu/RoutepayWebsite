@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Container from "./Container";
+import Appstore from "./Appstore";
 
 export default function DownloadApp() {
   return (
@@ -18,14 +19,7 @@ export default function DownloadApp() {
                 </h3>
                 <p className="text-zinc-600">Ready for a platform that just... works? Download the app and explore all the features <br className="hidden lg:block" /> today.</p>
               </div>
-              <div className="flex gap-14 md:mb-10">
-                <a href="https://apps.apple.com/ng/app/RoutePay-fintech/id6502836208">
-                  <Image width={500} height={500} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.routepay&hl=en">
-                  <Image width={500} height={500} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
-                </a>
-              </div>
+             <Appstore classname="md:mb-10"/>
 
               {/* Links */}
             </div>

@@ -14,6 +14,7 @@ import animationData2 from "../assets/verify.json";
 import animationData3 from "../assets/contact-us.json";
 import Image from "next/image";
 import { useState } from "react";
+import Appstore from "@/components/Appstore";
 
 const cards = [
 
@@ -123,22 +124,7 @@ export default function Home() {
               <p className="text-[#3B3939] md:text-[20px] leading-6.25">
                 We make it easy to send, receive, and make payments in local currencies across growing markets with simple tools and seamless connections.
               </p>
-              <div className="flex gap-14 ">
-                <Image
-                  width={100}
-                  height={100}
-                  src="/images/app-store.svg"
-                  alt="App store"
-                  className="w-[110] md:w-fit"
-                />
-                <Image
-                  width={100}
-                  height={100}
-                  src="/images/play-store.svg"
-                  alt="Play store"
-                  className="w-[110] md:w-fit"
-                />
-              </div>
+             <Appstore />
               <p className="text-[#3B3939] md:text-[12px] leading-6.25">Powered by <span className="font-medium">Routelink Microfinance Bank</span></p>
             </div>
           </div>

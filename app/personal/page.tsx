@@ -5,6 +5,7 @@ import Container from "../../components/Container";
 import DownloadApp from "../../components/DownloadApp";
 import FAQ from "../../components/FAQ";
 import PersonalFeat from "../../components/PersonalFeat";
+import Appstore from "@/components/Appstore";
 
 const cards = [
   {
@@ -79,14 +80,7 @@ export default function PersonalPage() {
               <p className="text-[#3B3939] md:text-[20px] leading-6.25">
                 Your all-in-one financial app for sending money, paying bills, and managing your finances effortlessly.
               </p>
-              <div className="flex gap-14">
-                <a href="https://apps.apple.com/ng/app/routepay/id6752760967" target="_blank" rel="noopener noreferrer">
-                  <Image width={100} height={100} src="/images/app-store.svg" alt="App store" className="w-[110] md:w-fit" />
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.routepay.app" target="_blank" rel="noopener noreferrer">
-                  <Image width={100} height={100} src="/images/play-store.svg" alt="Play store" className="w-[110] md:w-fit" />
-                </a>
-              </div>
+              <Appstore />
             </div>
           </div>
           <div className=" w-full h-full flex justify-center items-center px-8">

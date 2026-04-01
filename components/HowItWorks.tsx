@@ -31,7 +31,7 @@ export default function HowItWorks({ animate, header, title }: HowItWorksProps) 
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-17.75">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-17.75">
             {animate.map((item, index) => {
               return (
                 <div className="flex flex-col gap-8" key={index}>
