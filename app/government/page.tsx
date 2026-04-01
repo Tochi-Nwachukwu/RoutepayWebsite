@@ -138,9 +138,8 @@ export default function GovernmentPage() {
           title={"HOW IT WORKS"}
           header={
             <>
-              3 simple steps and <br className="hidden md:block" /> you’re in
-              business
-              Get Started <br className="hidden md:block" /> With Ease
+             
+              Get Started With Ease
             </>
           }
         />
@@ -149,7 +148,7 @@ export default function GovernmentPage() {
           header={
             <>
               Digital Infrastructure for Government{" "}
-              <br className="hidden md:block" /> Payments
+              <br className="hidden lg:block" /> Payments
             </>
           }
         />

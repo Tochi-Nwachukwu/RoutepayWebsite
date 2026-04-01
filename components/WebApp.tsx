@@ -20,7 +20,7 @@ export default function WebApp({header, text, cta}: WebApp) {
                 <h3 className="md:text-[18px]  leading-5.75 ">
                   {header}
                 </h3>
-                <h2 className="text-[30px] md:text-[50px] md:leading-15.75 text-white">
+                <h2 className="text-[30px] md:text-[40px] lg:text-[50px] md:leading-15.75 text-white">
                   {text}
                 </h2>
                 <a href="https://portal.routepay.com/register?source=MerchantPortal" target="_blank" rel="noopener noreferrer">
