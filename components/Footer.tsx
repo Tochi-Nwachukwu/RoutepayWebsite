@@ -25,9 +25,9 @@ const company: LinkItem[] = [
   { text: "About us", href: "/about" },
   { text: "Contact Us", href: "/contact-us" },
 
-  { text: "Personal", href: "/perosnal" },
+  { text: "Personal", href: "/personal" },
   { text: "Business", href: "/business" },
-  { text: "Goverment", href: "/governmnet" },
+  { text: "Goverment", href: "/government" },
 ];
 
 const iconLinks: SocialLink[] = [
