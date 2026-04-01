@@ -28,6 +28,12 @@ export const company: NavItem[] = [
     link: "/contact-us",
     text: "Contact us or visit us.",
   },
+  {
+    icon: "/images/for-devs-icon.svg",
+    title: "For Developers",
+    link: "/for-developers",
+    text: "Check out our API Documentation",
+  },
 ];
 
 export const businessSolutions: NavItem[] = [
