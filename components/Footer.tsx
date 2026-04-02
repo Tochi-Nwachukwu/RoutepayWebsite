@@ -119,7 +119,7 @@ const Footer = () => {
                   />
                   <div className="flex justify-center md:justify-end">
                     <p className="font-normal text-[#555151] leading-7 md:text-[18px]">
-                      Payment Beyond Barriers
+                      Beyond Barriers
                     </p>
                   </div>
                 </div>
