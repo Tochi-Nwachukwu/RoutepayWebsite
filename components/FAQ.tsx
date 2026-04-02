@@ -62,7 +62,7 @@ export default function FAQ({ cards }: FAQProps) {
                           <div
                             className={`overflow-hidden transition-all duration-500 ${
                               isOpen
-                                ? "max-h-40 opacity-100 mt-3"
+                                ? "max-h-full opacity-100 mt-3"
                                 : "max-h-0 opacity-0"
                             }`}
                           >

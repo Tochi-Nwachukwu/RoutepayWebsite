@@ -31,7 +31,7 @@ export const company: NavItem[] = [
   {
     icon: "/images/for-devs-icon.svg",
     title: "For Developers",
-    link: "/for-developers",
+    link: "https://documenter.getpostman.com/view/2198647/2s847ETFBW",
     text: "Check out our API Documentation",
   },
 ];
