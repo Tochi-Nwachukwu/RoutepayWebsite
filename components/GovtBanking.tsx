@@ -92,7 +92,7 @@ export default function GovtBanking() {
                 </h3>
                 <Btn
                   text=" Contact Sales"
-                  link="https://portal.routepay.com/register?source=MerchantPortal"
+                  link="mailto:sales@routepay.com"
                   color={true}
                 />
               </div>
