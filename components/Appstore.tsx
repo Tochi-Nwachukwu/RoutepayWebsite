@@ -12,7 +12,7 @@ export default function Appstore({ classname }: AppStore) {
         <Image
           width={500}
           height={500}
-          src="/images/app-store.svg"
+          src="/images/app-1.svg"
           alt="App store"
           className="w-[110] md:w-fit"
         />
@@ -21,7 +21,7 @@ export default function Appstore({ classname }: AppStore) {
         <Image
           width={500}
           height={500}
-          src="/images/play-store.svg"
+          src="/images/play-1.svg"
           alt="Play store"
           className="w-[110] md:w-fit"
         />
