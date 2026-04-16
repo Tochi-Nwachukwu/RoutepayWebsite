@@ -10,6 +10,7 @@ import animationData1 from "../../assets/fast.json";
 import animationData2 from "../../assets/secure.json";
 import animationData3 from "../../assets/cart.json";
 import Image from "next/image";
+import Link from "next/link";
 
 const cards = [
   {
@@ -102,7 +103,7 @@ export default function BusinessPage() {
                 Get paid faster with secure, scalable collection tools designed
                 for the modern Nigerian business.
               </h3>
-              <button className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#000000] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3">
+              <Link href="https://portal.routepay.com/register?source=MerchantPortal" className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#000000] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3">
                 {" "}
                 <p>Sign up your business</p>{" "}
                 <Image
@@ -111,7 +112,7 @@ export default function BusinessPage() {
                   src="/images/button-right.svg"
                   alt=""
                 />{" "}
-              </button>
+              </Link>
             </div>
           </div>
 
