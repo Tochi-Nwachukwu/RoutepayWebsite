@@ -10,7 +10,7 @@ export const resources: NavItem[] = [
   {
     icon: "/images/for-devs-icon.svg",
     title: "For Developers",
-    link: "/for-developers",
+    link: "https://developer.routepay.com/",
     text: "Check out our API Documentation",
   },
 ];
