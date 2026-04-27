@@ -68,7 +68,7 @@ const cards = [
   },
   {
     header: "Can I get a loan through RoutePay?",
-    text: "While RoutePay is primarily a payment infrastructure provider, we partner with licensed financial institutions (like Microfinance Banks) to offer credit facilities. Your eligibility is often based on your transaction history and volume on the RoutePay platform.",
+    text: "While RoutePay is primarily a payment infrastructure provider, we operate our own licensed microfinance bank, Routelink MFB, which enables us to offer credit facilities directly. Your eligibility is typically based on your transaction history and volume on the RoutePay platform.",
   },
   {
     header: "What happens if a transaction fails but I am debited?",

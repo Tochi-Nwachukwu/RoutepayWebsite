@@ -7,6 +7,12 @@ interface LinkItem {
   href: string;
 }
 
+interface LinkItem2 {
+  text: string;
+  href: string;
+  newTab: boolean;
+}
+
 interface SocialLink {
   link: string;
   href: string;
@@ -37,11 +43,16 @@ const iconLinks: SocialLink[] = [
   { link: "/images/twitter.svg", href: "/" },
 ];
 
-const extraLinks: LinkItem[] = [
-  { text: "Privacy", href: "/terms-and-conditions" },
-  { text: "Terms of Use", href: "/terms" },
-  { text: "Cookies Policy", href: "/cookies-policy" },
-  { text: "Data Protection", href: "/data-protection" },
+const extraLinks: LinkItem2[] = [
+  { text: "Privacy", href: "/terms-and-conditions", newTab: false },
+  { text: "Terms of Use", href: "/terms", newTab: false },
+  { text: "Cookies Policy", href: "/cookies-policy", newTab: false },
+  { text: "Data Protection", href: "/data-protection", newTab: false },
+  {
+    text: "For Developers",
+    href: "https://developer.routepay.com/",
+    newTab: true,
+  },
 ];
 
 const Footer = () => {
@@ -142,12 +153,14 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col gap-8">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-14 text-[16px] font-normal">
+                <div className="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-14 text-[16px] font-normal">
                   {extraLinks.map((item, index) => {
                     return (
                       <Link
                         href={item.href}
                         key={index}
+                        target={item.newTab ? "_blank" : "_self"}
+                        rel={item.newTab ? "noopener noreferrer" : undefined}
                         className="hover:text-[#F05A24] text-[14px] leading-6.5 md:leading-7.5 hover:transition-all duration-300 hover:text-opacity-70 cursor-pointer"
                       >
                         {item.text}

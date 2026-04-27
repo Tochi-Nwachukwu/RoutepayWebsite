@@ -90,7 +90,7 @@ const DesktopMenu = ({ pathname }: DesktopMenuProps) => {
                 Our Company
               </div>
               {showCompany && (
-                <div className="w-screen bg-white fixed left-0 top-20 gap-28 px-28 py-20 flex border-t border-gray-100 shadow-md">
+                <div className="w-screen bg-white fixed left-0 top-20 gap-50 px-28 py-20 flex border-t border-gray-100 shadow-md">
                   <div className="max-w-80.5">
                     <h3 className="text-2xl text-[#1e1e1e]">Company</h3>
                     <p className="mt-2 text-[#4D4A4A]">
