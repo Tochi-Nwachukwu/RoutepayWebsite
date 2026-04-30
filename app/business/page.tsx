@@ -94,7 +94,7 @@ export default function BusinessPage() {
               <h1 className="text-[40px] md:text-[60px] xl:text-[70px] md:leading-22 text-black">
                 Payment Collections
                 <br className="" />
-                 Simplified
+                Simplified
               </h1>
             </div>
             {/* Header button */}
@@ -103,16 +103,34 @@ export default function BusinessPage() {
                 Get paid faster with secure, scalable collection tools designed
                 for the modern Nigerian business.
               </h3>
-              <Link href="https://portal.routepay.com/register?source=MerchantPortal" className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#000000] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3">
-                {" "}
-                <p>Sign up your business</p>{" "}
-                <Image
-                  width={15}
-                  height={15}
-                  src="/images/button-right.svg"
-                  alt=""
-                />{" "}
-              </Link>
+              <div className="md:flex grid gap-2 ">
+                <Link
+                  href="https://portal.routepay.com/register?source=MerchantPortal"
+                  className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#000000] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3"
+                >
+                  {" "}
+                  <p>Sign up your business</p>{" "}
+                  <Image
+                    width={15}
+                    height={15}
+                    src="/images/button-right.svg"
+                    alt=""
+                  />{" "}
+                </Link>
+                <Link
+                  href="https://developer.routepay.com"
+                  className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#a39b9b] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3"
+                >
+                  {" "}
+                  <p>View API Documentation</p>{" "}
+                  <Image
+                    width={15}
+                    height={15}
+                    src="/images/button-right.svg"
+                    alt=""
+                  />{" "}
+                </Link>
+              </div>
             </div>
           </div>
 

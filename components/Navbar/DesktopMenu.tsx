@@ -15,9 +15,7 @@ interface DesktopMenuProps {
 }
 
 const DesktopMenu = ({ pathname }: DesktopMenuProps) => {
-  const [showResources, setShowResources] = useState(false);
   const [showCompany, setShowCompany] = useState(false);
-  const [showSolutions, setShowSolutions] = useState(false);
 
   const isActive = (path: string) => pathname === path;
 
@@ -33,8 +31,6 @@ const DesktopMenu = ({ pathname }: DesktopMenuProps) => {
             {/* Resources Dropdown */}
             <div
               className="relative h-20 flex items-center"
-              onMouseEnter={() => setShowResources(true)}
-              onMouseLeave={() => setShowResources(false)}
             >
               <Link
                 href="/personal"
@@ -64,8 +60,6 @@ const DesktopMenu = ({ pathname }: DesktopMenuProps) => {
             {/* Solutions Dropdown */}
             <div
               className="relative h-20 flex items-center"
-              onMouseEnter={() => setShowSolutions(true)}
-              onMouseLeave={() => setShowSolutions(false)}
             >
               <Link
                 href="/government"

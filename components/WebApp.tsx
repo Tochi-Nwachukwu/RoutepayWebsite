@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Btn from "./Btn";
 import Container from "./Container";
 
 interface WebApp {

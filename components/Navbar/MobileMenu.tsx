@@ -6,13 +6,9 @@ import { AiOutlineClose } from "react-icons/ai";
 import Accordion from "../Accordion";
 import Btn from "../Btn";
 import {
-  resources,
   company,
-  businessSolutions,
-  personalSolutions,
 } from "./NavData";
 import Image from "next/image";
-import { useState } from "react";
 
 interface MobileMenuProps {
   open: boolean;
@@ -21,8 +17,6 @@ interface MobileMenuProps {
 }
 
 const MobileMenu = ({ open, setOpen, toggleNav }: MobileMenuProps) => {
-  const [isAccordionOpen, setIsAccordionOpen] = useState(false);
-
   return (
     <div className="relative px-5 h-18 flex justify-between items-center  xl:hidden">
       <div className="">

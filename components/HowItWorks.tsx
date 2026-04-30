@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 import { ReactNode } from "react";
 
 interface AnimateItem {
-  vid: any;
+  vid: Record<string, unknown>;
   header: string;
   text: string;
 }

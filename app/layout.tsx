@@ -72,7 +72,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-white overflow-x-hidden">
+      <body className="min-h-full flex flex-col bg-white overflow-x-hidden" suppressHydrationWarning>
         <Navbar />
         <main className="flex-grow">
           {children}

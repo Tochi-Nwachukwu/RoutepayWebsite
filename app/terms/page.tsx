@@ -24,7 +24,7 @@ export default function TermsPage() {
             we have developed this Privacy Policy to explain our privacy
             practices, particularly regarding how we collect, process, retain,
             share and protect your Personal Data when you visit our website,
-            premises or use our digital platforms (collectively, "the Platform"
+            premises or use our digital platforms (collectively, &quot;the Platform&quot;
             or &quot;Services&quot;) as well as your rights as a data subject.
             <br />
             <br />

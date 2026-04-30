@@ -16,7 +16,7 @@ export default function CookiesPolicyPage() {
         </div>
         <div className="mt-[60px] pb-32 xl:pb-[315px] text-[#4D4A4A]">
           <p>
-            Routelink Integrated Systems Limited ("we," "our," or "us") uses
+            Routelink Integrated Systems Limited (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) uses
             cookies and similar tracking technologies on our website to enhance
             user experience, analyze website traffic, and personalize content.
             This Cookies Policy explains:
@@ -236,7 +236,7 @@ export default function CookiesPolicyPage() {
           </ul>
           <br />
           <p>
-            Updates will be posted here with a revised "Last Updated" date.{" "}
+            Updates will be posted here with a revised &quot;Last Updated&quot; date.{" "}
           </p>
           <br />
 

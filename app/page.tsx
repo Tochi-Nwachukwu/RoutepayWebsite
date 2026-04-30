@@ -12,8 +12,6 @@ import FAQ from "../components/FAQ";
 import animationData1 from "../assets/car-animate.json";
 import animationData2 from "../assets/verify.json";
 import animationData3 from "../assets/contact-us.json";
-import Image from "next/image";
-import { useState } from "react";
 import Appstore from "@/components/Appstore";
 
 const cards = [
@@ -111,7 +109,6 @@ const animate = [
 ];
 
 export default function Home() {
-  const [loaded, setLoaded] = useState(false);
   return (
     <div className="bg-white font-light ">
       <Container>
