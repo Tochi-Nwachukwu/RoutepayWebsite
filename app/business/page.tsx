@@ -119,6 +119,7 @@ export default function BusinessPage() {
                 </Link>
                 <Link
                   href="https://developer.routepay.com"
+                  target="_blank"
                   className="rounded-[30px] w-56 md:w-62.5 font-normal md:font-medium text-white bg-[#a39b9b] flex flex-row justify-center items-center px-0 py-2 md:py-3 text-[16px] gap-3"
                 >
                   {" "}
