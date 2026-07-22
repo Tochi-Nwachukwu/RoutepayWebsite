@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Btn from "./Btn";
 import Container from "./Container";
+import Link from "next/link";
 
 export default function BankingBusiness() {
   return (
@@ -22,11 +23,30 @@ export default function BankingBusiness() {
               <h3 className="text-[18px] md:text-[20px] leading-7 ">
                 Launch your store, generate payment links, and manage your finances, all from one powerful dashboard.
               </h3>
-              <Btn
+              <div className="flex flex-col gap-4">
+                 <Btn
                 text=" Setup Business Account"
                 link="https://portal.routepay.com/register?source=MerchantPortal"
                 color={true}
               />
+               <Link
+                  href="https://developer.routepay.com"
+                  target="_blank"
+                  className="rounded-[30px] w-60 md:w-62.5 font-normal md:font-medium text-white bg-[#948989] flex flex-row justify-center items-center px-0 py-2.5 text-[16px] gap-3"
+                >
+                  {" "}
+                  <p>View API Documentation</p>{" "}
+                  <Image
+                    width={15}
+                    height={15}
+                    src="/images/button-right.svg"
+                    alt=""
+                  />{" "}
+                </Link>
+              
+                 
+              </div>
+             
             </div>
           </div>
 
