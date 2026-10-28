@@ -38,7 +38,7 @@ export default function TermsPage() {
             regulations.
             <br />
             <br />
-            You can contact us by phone at +234-913-444-6536, email
+            You can contact us by phone at +234 707 459 1520 or +234 707 459 1525, email
             at customersupport@routepay.com , or by mail to Plot 1679 Karimu Kotun
             Street, Victoria Island, Lagos, Nigeria.
             <br />
@@ -1025,7 +1025,9 @@ export default function TermsPage() {
             Plot 1679 Karimu Kotun Street <br />
             Victoria Island, Lagos <br />
             Nigeria <br />
-            customersupport@routepay.com   <br />
+            customersupport@routepay.com <br />
+            sales@routepay.com <br />
+            +234 707 459 1520, +234 707 459 1525 <br />
           </p>
         </div>
       </div>

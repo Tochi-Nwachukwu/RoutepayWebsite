@@ -18,10 +18,15 @@ interface SocialLink {
   href: string;
 }
 
-const contact = [
+const contact: { text: string; href?: string }[] = [
   { text: "Start a Chat" },
-  { text: "+234 913 444 6536" },
-  { text: "sales@routepay.com" },
+  { text: "+234 707 459 1520", href: "tel:+2347074591520" },
+  { text: "+234 707 459 1525", href: "tel:+2347074591525" },
+  { text: "sales@routepay.com", href: "mailto:sales@routepay.com" },
+  {
+    text: "customersupport@routepay.com",
+    href: "mailto:customersupport@routepay.com",
+  },
   {
     text: "Ground Floor, Africa Re House, Plot 1679 Karimu Kotun St, Victoria Island, Lagos",
   },
@@ -103,7 +108,7 @@ const Footer = () => {
                 {contact.map((item, index) => {
                   return (
                     <Link
-                      href="/contact-us"
+                      href={item.href ?? "/contact-us"}
                       className="text-[14px] leading-6.5 md:leading-7.5 cursor-pointer"
                       key={index}
                     >

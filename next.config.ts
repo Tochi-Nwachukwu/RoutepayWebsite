@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   },
   // Optional but recommended for cPanel/Apache:
   trailingSlash: true, 
-  allowedDevOrigins: ["10.47.54.185", "10.47.54.48", "192.168.1.179", "192.168.1.244"],
+  allowedDevOrigins: ["10.47.54.185", "10.47.54.48", "192.168.1.179", "192.168.1.244", "192.168.0.178"],
 };
 
 export default nextConfig;

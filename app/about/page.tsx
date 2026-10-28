@@ -42,7 +42,7 @@ const cards = [
   },
   {
     header: "How do I contact customer support?",
-    text: "Our support team is ready to help. You can reach us via email at customersupport@routepay.com or through our dedicated WhatsApp helpline at +234-913-444-6536. We are also available for inquiries on our official social media channels.",
+    text: "Our support team is ready to help. You can reach us via email at customersupport@routepay.com (or sales@routepay.com for sales enquiries), or by phone on +234 707 459 1520 or +234 707 459 1525. We are also available for inquiries on our official social media channels.",
   },
   {
     header: "What are the different KYC levels and their limits?",

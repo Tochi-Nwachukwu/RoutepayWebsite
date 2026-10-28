@@ -54,11 +54,20 @@ export default function RootLayout({
     "url": "https://routepay.com",
     "logo": "https://routepay.com/routepay-logo.png",
     "description": "Routepay provides innovative quick payment solutions.",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+234 913 444 6536",
-      "contactType": "customer service"
-    }
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": ["+234 707 459 1520", "+234 707 459 1525"],
+        "email": "customersupport@routepay.com",
+        "contactType": "customer service"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": ["+234 707 459 1520", "+234 707 459 1525"],
+        "email": "sales@routepay.com",
+        "contactType": "sales"
+      }
+    ]
   };
 
   return (

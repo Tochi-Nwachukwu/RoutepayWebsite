@@ -5,7 +5,7 @@ interface ContactCard {
   src: string;
   bg: string;
   header: string;
-  text: string;
+  text: string | string[];
 }
 
 const cards: ContactCard[] = [
@@ -19,13 +19,13 @@ const cards: ContactCard[] = [
     src: "/images/email.svg",
     header: "Email Address:",
     bg: "bg-[#FADCFF]",
-    text: "customersupport@routepay.com",
+    text: ["sales@routepay.com", "customersupport@routepay.com"],
   },
   {
     src: "/images/phone.svg",
     header: "Phone Number:",
     bg: "bg-[#CEEADF]",
-    text: "(+234)-913-444-6536",
+    text: ["+234 707 459 1520", "+234 707 459 1525"],
   },
   {
     src: "/images/socials.svg",
@@ -56,7 +56,13 @@ export default function ContactCards() {
                         {item.header}
                       </h3>
                       <p className="text-[20px] lg:text-[25px] xl:text-[30px] leading-9.5 text-[#555151]">
-                        {item.text}
+                        {Array.isArray(item.text)
+                          ? item.text.map((line) => (
+                              <span key={line} className="block break-all">
+                                {line}
+                              </span>
+                            ))
+                          : item.text}
                       </p>
                     </div>
                   </div>
